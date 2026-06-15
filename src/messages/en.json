@@ -1,0 +1,217 @@
+{
+  "Nav": {
+    "logoLabel": "BizVision",
+    "digitalDev": "Digital Development",
+    "aiAutomation": "AI & Intelligent Automation",
+    "consulting": "Consulting & Architecture",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Discuss your project",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "tagline": "Senior software development for businesses that need it done right.",
+    "nav": "Navigation",
+    "digitalDev": "Digital Development",
+    "aiAutomation": "AI & Intelligent Automation",
+    "consulting": "Consulting & Architecture",
+    "about": "About",
+    "contact": "Contact",
+    "location": "Helsinki, Finland",
+    "gdpr": "GDPR-aware",
+    "copyright": "© {year} BizVision"
+  },
+  "HomePage": {
+    "hero": {
+      "eyebrow": "// software development",
+      "headline": "Web, mobile, and AI-powered systems — built for clarity and long-term use",
+      "subhead": "BizVision is a software development partner helping businesses and public sector organisations design and build secure, maintainable digital systems.",
+      "body": "From modern web applications and mobile apps to AI agents and internal automation tools, we build software that actually supports how your organisation works — today and as it grows.",
+      "ctaPrimary": "Discuss your project",
+      "ctaSecondary": "Explore our services"
+    },
+    "problem": {
+      "eyebrow": "// the problem",
+      "lead": "At some point, spreadsheets stop being enough.",
+      "items": [
+        "Internal tools become clunky.",
+        "Data lives in too many places.",
+        "Manual steps creep into everyday work.",
+        "Legacy systems feel risky but impossible to replace."
+      ]
+    },
+    "services": {
+      "eyebrow": "// what we do",
+      "heading": "End-to-end software development with AI built in from day one",
+      "subhead": "We design and build secure, scalable digital systems — combining senior engineering, user-centered design, and AI-enhanced workflows.",
+      "items": [
+        {
+          "title": "Web Development",
+          "body": "Modern web applications, dashboards, admin tools, and backend systems built with clean architecture and long-term maintainability in mind."
+        },
+        {
+          "title": "Mobile Development",
+          "body": "Reliable cross-platform and native mobile applications designed for real-world use."
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "Clear, accessible, and practical interface design focused on usability — not decoration."
+        },
+        {
+          "title": "AI Agents & Intelligent Workflows",
+          "body": "AI solutions that automate real work — securely and responsibly.",
+          "bullets": [
+            "Internal AI automation agents",
+            "AI-powered document processing",
+            "Intelligent reporting and data summarisation",
+            "Workflow automation with LLM integration",
+            "Secure AI deployments (cloud or private infrastructure)"
+          ]
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "// why bizvision",
+      "items": [
+        {
+          "title": "Senior-level expertise — without agency overhead",
+          "body": "You work directly with experienced developers. No account managers. No unnecessary layers. No junior hand-offs.",
+          "bullets": [
+            "Clear and fast communication",
+            "Practical technical decisions",
+            "Lower structural cost",
+            "Fewer misunderstandings"
+          ]
+        },
+        {
+          "title": "Full-stack + UX + AI — integrated",
+          "body": "Many companies separate backend, frontend, UX, and AI into different teams. We combine engineering, user experience design, AI automation, and cloud architecture. The result: fewer coordination gaps and more coherent systems.",
+          "bullets": [
+            "Engineering",
+            "User experience design",
+            "AI automation",
+            "Cloud architecture"
+          ]
+        },
+        {
+          "title": "Security and compliance built in",
+          "body": "Especially for public sector and regulated environments, we design systems with security and compliance from the start.",
+          "bullets": [
+            "GDPR-conscious data handling",
+            "Secure authentication practices",
+            "Role-based access control",
+            "Cloud-native, secure deployment",
+            "Option for private AI infrastructure"
+          ]
+        },
+        {
+          "title": "Local presence in Helsinki",
+          "body": "We understand Finnish business culture, public sector requirements, EU data regulations, and security expectations in government projects. We operate in both Finnish and English environments.",
+          "bullets": [
+            "Finnish business culture",
+            "Public sector requirements",
+            "EU data regulations",
+            "Security expectations in government projects"
+          ]
+        }
+      ]
+    },
+    "clients": {
+      "eyebrow": "// who we work with",
+      "items": [
+        {
+          "title": "Small and Medium-Sized Businesses",
+          "bullets": [
+            "Companies modernising internal processes",
+            "Businesses replacing legacy systems",
+            "Organisations integrating AI into workflows",
+            "Teams building operational dashboards"
+          ]
+        },
+        {
+          "title": "Public Sector Organisations",
+          "bullets": [
+            "Municipalities",
+            "Government agencies",
+            "Operational system modernisation initiatives",
+            "Secure internal tools and data-driven systems"
+          ]
+        },
+        {
+          "title": "Project-Based Collaborations",
+          "bullets": [
+            "Teams needing senior full-stack expertise",
+            "AI integration projects",
+            "MVP and pilot development",
+            "Short- to mid-term consultancy engagements"
+          ]
+        }
+      ],
+      "rolesHeading": "We can act as:",
+      "roles": [
+        "End-to-end delivery partner",
+        "Technical lead for new initiatives",
+        "Modernisation partner",
+        "Senior freelance consultant within larger projects"
+      ]
+    },
+    "process": {
+      "eyebrow": "// how we work",
+      "heading": "A clear, structured process from idea to delivery.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Discovery & Requirements",
+          "body": "We clarify goals, users, constraints, and technical realities. Clear scope. Clear expectations. Clear roadmap."
+        },
+        {
+          "number": "02",
+          "title": "Design & Architecture",
+          "body": "We design both the user experience and the system architecture. Decisions are documented and transparent."
+        },
+        {
+          "number": "03",
+          "title": "Development & Testing",
+          "body": "We build with clean, maintainable code and modern best practices. Security, performance, and scalability are considered from the start."
+        },
+        {
+          "number": "04",
+          "title": "Delivery & Support",
+          "body": "Deployment, documentation, and structured handover. Ongoing support available if needed."
+        }
+      ]
+    },
+    "guarantees": {
+      "eyebrow": "// what every client gets",
+      "heading": "Every engagement includes:",
+      "items": [
+        "Structured technical overview",
+        "Transparent decisions and architecture clarity",
+        "Clean, maintainable code",
+        "Version control and CI/CD readiness",
+        "Security-conscious implementation",
+        "Scalability planning",
+        "Direct communication with the developer",
+        "Defined milestones and progress visibility",
+        "Evaluation of AI automation opportunities"
+      ]
+    },
+    "experience": {
+      "eyebrow": "// experience",
+      "stat": "7+",
+      "statLabel": "Years in Development",
+      "projectTypesLabel": "Project Types",
+      "projectTypesBody": "E-commerce platforms, SaaS applications, public sector systems, operational dashboards, and mobile apps.",
+      "approachLabel": "Approach",
+      "approachBody": "Agile methodology, clean code practices, user-centered design implementation."
+    },
+    "closingCta": {
+      "eyebrow": "// get in touch",
+      "heading": "Have a Project in Mind?",
+      "body": "Whether you're building a new system, modernising an old one, or exploring how AI could streamline your operations — let's discuss your situation.",
+      "sub": "You don't need a massive transformation plan. You need a clear next step.",
+      "cta": "Let's discuss your project"
+    }
+  }
+}
