@@ -7,7 +7,7 @@ export default async function HeroSection() {
   return (
     <section className="bg-hero-bg text-hero-text min-h-[92vh] flex items-center">
       <div className="mx-auto max-w-6xl px-6 lg:px-8 py-24 lg:py-32 w-full">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-accent-hero mb-6">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-lite mb-6">
           {t("eyebrow")}
         </p>
         <h1
@@ -25,13 +25,13 @@ export default async function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center h-12 px-6 rounded bg-accent text-ink font-medium text-base transition-colors hover:bg-accent-text focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-hero"
+            className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
           >
             {t("ctaPrimary")}
           </Link>
           <a
             href="#services"
-            className="inline-flex items-center justify-center h-12 px-6 rounded border border-hero-text/30 text-hero-text font-medium text-base transition-colors hover:bg-hero-text/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-hero"
+            className="inline-flex items-center justify-center h-12 px-6 rounded border border-hero-text/30 text-hero-text font-medium text-base transition-colors hover:bg-hero-text/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
           >
             {t("ctaSecondary")}
           </a>

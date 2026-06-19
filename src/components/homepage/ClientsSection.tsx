@@ -11,9 +11,9 @@ export default async function ClientsSection() {
   const roles = t.raw("roles") as string[];
 
   return (
-    <section className="bg-surface py-20 lg:py-28 border-y border-line">
+    <section className="bg-paper py-20 lg:py-28 border-y border-bone">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-accent-text mb-12">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-12">
           {t("eyebrow")}
         </p>
 
@@ -25,8 +25,8 @@ export default async function ClientsSection() {
               </h3>
               <ul className="space-y-1.5" role="list">
                 {item.bullets.map((b, j) => (
-                  <li key={j} className="flex items-start gap-2.5 text-sm text-muted leading-relaxed">
-                    <span className="mt-[0.35rem] shrink-0 w-1 h-1 rounded-full bg-accent" aria-hidden="true" />
+                  <li key={j} className="flex items-start gap-2.5 text-sm text-taupe leading-relaxed">
+                    <span className="mt-[0.35rem] shrink-0 w-1 h-1 rounded-full bg-ochre-deep" aria-hidden="true" />
                     {b}
                   </li>
                 ))}
@@ -35,13 +35,13 @@ export default async function ClientsSection() {
           ))}
         </div>
 
-        <div className="border-t border-line pt-10">
+        <div className="border-t border-bone pt-10">
           <p className="text-sm font-medium text-ink mb-5">{t("rolesHeading")}</p>
           <ul className="flex flex-wrap gap-3" role="list">
             {roles.map((role, i) => (
               <li
                 key={i}
-                className="px-4 py-2 border border-line rounded text-sm text-muted bg-paper"
+                className="px-4 py-2 border border-bone rounded text-sm text-taupe bg-surface"
               >
                 {role}
               </li>

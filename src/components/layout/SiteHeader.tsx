@@ -19,15 +19,15 @@ export default async function SiteHeader() {
   }));
 
   return (
-    <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur-sm border-b border-line">
+    <header className="sticky top-0 z-50 bg-surface/95 backdrop-blur-sm border-b border-bone">
       <div className="mx-auto max-w-6xl px-6 lg:px-8 h-[65px] flex items-center justify-between gap-8">
         <Link
           href="/"
           aria-label={t("logoLabel")}
-          className="font-display font-bold text-xl text-ink tracking-tight shrink-0 hover:text-accent-text transition-colors"
+          className="font-display font-bold text-xl text-ink tracking-tight shrink-0 hover:text-ochre-deep transition-colors"
         >
           Biz
-          <span className="text-accent">Vision</span>
+          <span className="text-ochre-deep">Vision</span>
         </Link>
 
         <nav
@@ -38,7 +38,7 @@ export default async function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-muted hover:text-ink transition-colors whitespace-nowrap"
+              className="text-sm font-medium text-taupe hover:text-ink transition-colors whitespace-nowrap"
             >
               {t(item.key)}
             </Link>
@@ -48,7 +48,7 @@ export default async function SiteHeader() {
         <div className="hidden lg:block shrink-0">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center h-10 px-5 rounded bg-accent text-ink text-sm font-medium transition-colors hover:bg-accent-text focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-text"
+            className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-ink text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
           >
             {t("cta")}
           </Link>

@@ -14,11 +14,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "bg-accent text-ink hover:bg-accent-text focus-visible:outline-accent-text",
+          "bg-ochre text-ink hover:bg-ochre-deep focus-visible:outline-ochre-deep",
         ghost:
-          "border border-hero-text/40 text-hero-text hover:bg-hero-text/10 focus-visible:outline-accent-hero",
+          "border border-hero-text/40 text-hero-text hover:bg-hero-text/10 focus-visible:outline-ochre-lite",
         outline:
-          "border border-line text-ink hover:bg-surface focus-visible:outline-accent-text",
+          "border border-bone text-ink hover:bg-surface focus-visible:outline-ochre-deep",
       },
       size: {
         default: "h-12 px-6",

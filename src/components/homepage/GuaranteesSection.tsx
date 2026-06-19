@@ -1,13 +1,14 @@
 import { getTranslations } from "next-intl/server";
+import { Check } from "lucide-react";
 
 export default async function GuaranteesSection() {
   const t = await getTranslations("HomePage.guarantees");
   const items = t.raw("items") as string[];
 
   return (
-    <section className="bg-surface py-20 lg:py-28 border-y border-line">
+    <section className="bg-paper py-20 lg:py-28 border-y border-bone">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-accent-text mb-6">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-6">
           {t("eyebrow")}
         </p>
         <h2
@@ -24,10 +25,11 @@ export default async function GuaranteesSection() {
           {items.map((item, i) => (
             <li
               key={i}
-              className="flex items-start gap-3 p-4 bg-paper rounded border border-line"
+              className="flex items-start gap-3 p-4 bg-surface rounded border border-bone"
             >
-              <span
-                className="mt-[0.35rem] shrink-0 w-1.5 h-1.5 rounded-full bg-accent"
+              <Check
+                size={15}
+                className="mt-[0.2rem] shrink-0 text-ochre-deep"
                 aria-hidden="true"
               />
               <span className="text-sm text-ink leading-relaxed">{item}</span>

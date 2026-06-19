@@ -11,9 +11,9 @@ export default async function ProcessSection() {
   const steps = t.raw("steps") as Step[];
 
   return (
-    <section className="bg-paper py-20 lg:py-28">
+    <section className="bg-surface py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-accent-text mb-6">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-6">
           {t("eyebrow")}
         </p>
         <h2
@@ -27,16 +27,16 @@ export default async function ProcessSection() {
           {steps.map((step) => (
             <li key={step.number} className="flex gap-6">
               <div className="shrink-0">
-                <span className="font-mono text-[11px] font-medium text-accent-text tracking-[0.08em]">
+                <span className="font-mono text-[11px] font-medium text-ochre-deep tracking-[0.08em]">
                   {step.number}
                 </span>
-                <div className="mt-2 w-px h-full bg-line ml-[0.3rem]" aria-hidden="true" />
+                <div className="mt-2 w-px h-full bg-bone ml-[0.3rem]" aria-hidden="true" />
               </div>
               <div className="pb-2">
                 <h3 className="font-display font-semibold text-ink text-xl leading-snug mb-3">
                   {step.title}
                 </h3>
-                <p className="text-base text-muted leading-relaxed">{step.body}</p>
+                <p className="text-base text-taupe leading-relaxed">{step.body}</p>
               </div>
             </li>
           ))}

@@ -54,7 +54,7 @@ export default function MobileMenu({
         aria-controls="mobile-menu"
         aria-label={open ? closeLabel : openLabel}
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center justify-center w-10 h-10 rounded text-ink transition-colors hover:bg-line"
+        className="flex items-center justify-center w-10 h-10 rounded text-ink transition-colors hover:bg-bone"
       >
         {open ? <X size={20} /> : <Menu size={20} />}
       </button>
@@ -64,7 +64,7 @@ export default function MobileMenu({
         ref={menuRef}
         aria-hidden={!open}
         className={cn(
-          "fixed inset-0 top-[65px] z-40 bg-paper border-t border-line transition-all duration-200",
+          "fixed inset-0 top-[65px] z-40 bg-paper border-t border-bone transition-all duration-200",
           open
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
@@ -79,7 +79,7 @@ export default function MobileMenu({
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="py-3 px-2 text-base font-medium text-ink border-b border-line last:border-0 hover:text-accent-text transition-colors"
+              className="py-3 px-2 text-base font-medium text-ink border-b border-bone last:border-0 hover:text-ochre-deep transition-colors"
             >
               {item.label}
             </Link>
@@ -88,7 +88,7 @@ export default function MobileMenu({
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-accent text-ink font-medium text-base transition-colors hover:bg-accent-text"
+              className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep"
             >
               {ctaLabel}
             </Link>

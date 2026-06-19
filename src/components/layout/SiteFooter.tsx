@@ -14,14 +14,14 @@ export default async function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-surface border-t border-line">
+    <footer className="bg-surface border-t border-bone">
       <div className="mx-auto max-w-6xl px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
           <div>
             <p className="font-display font-bold text-lg text-ink mb-3">
-              Biz<span className="text-accent">Vision</span>
+              Biz<span className="text-ochre-deep">Vision</span>
             </p>
-            <p className="text-sm text-muted leading-relaxed">{t("tagline")}</p>
+            <p className="text-sm text-taupe leading-relaxed">{t("tagline")}</p>
           </div>
 
           <nav aria-label={t("nav")}>
@@ -30,7 +30,7 @@ export default async function SiteFooter() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-muted hover:text-ink transition-colors"
+                    className="text-sm text-taupe hover:text-ink transition-colors"
                   >
                     {t(item.key)}
                   </Link>
@@ -41,12 +41,12 @@ export default async function SiteFooter() {
 
           <div>
             <p className="text-sm font-medium text-ink mb-1">{t("location")}</p>
-            <p className="text-sm text-muted">{t("gdpr")}</p>
+            <p className="text-sm text-taupe">{t("gdpr")}</p>
           </div>
         </div>
 
-        <div className="mt-10 pt-8 border-t border-line">
-          <p className="text-xs text-muted">
+        <div className="mt-10 pt-8 border-t border-bone">
+          <p className="text-xs text-taupe">
             {t("copyright", { year })}
           </p>
         </div>

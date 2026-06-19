@@ -7,7 +7,7 @@ export default async function ClosingCtaSection() {
   return (
     <section className="bg-hero-bg text-hero-text py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-accent-hero mb-6">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-lite mb-6">
           {t("eyebrow")}
         </p>
         <h2
@@ -24,7 +24,7 @@ export default async function ClosingCtaSection() {
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center justify-center h-12 px-6 rounded bg-accent text-ink font-medium text-base transition-colors hover:bg-accent-text focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-hero"
+          className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
         >
           {t("cta")}
         </Link>
