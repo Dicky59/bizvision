@@ -1,8 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import DarkCtaBand from "@/components/shared/DarkCtaBand";
 
-export default async function ClosingCtaSection() {
-  const t = await getTranslations("HomePage.closingCta");
+export default async function CtaSection() {
+  const t = await getTranslations("DigitalDevelopment.closingCta");
 
   return (
     <DarkCtaBand

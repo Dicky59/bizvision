@@ -8,7 +8,7 @@ interface Step {
 }
 
 export default async function ProcessSection() {
-  const t = await getTranslations("HomePage.process");
+  const t = await getTranslations("AiAutomation.process");
   const steps = t.raw("steps") as Step[];
 
   return (

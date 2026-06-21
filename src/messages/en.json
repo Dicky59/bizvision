@@ -213,5 +213,411 @@
       "sub": "You don't need a massive transformation plan. You need a clear next step.",
       "cta": "Let's discuss your project"
     }
+  },
+  "DigitalDevelopment": {
+    "hero": {
+      "eyebrow": "// Digital Development",
+      "headline": "Integrated digital systems, built to scale.",
+      "body": "Web, mobile, and interface — engineered together as one system, on clean architecture and secure foundations.",
+      "ctaPrimary": "Discuss Your Project",
+      "ctaSecondary": "View AI Services",
+      "sub": "Full-stack engineering · UX-driven design · Cloud-ready."
+    },
+    "whatWeBuild": {
+      "eyebrow": "// What we build",
+      "heading": "Three capabilities, one architecture.",
+      "quote": "Design and development aren't separate phases. They're built together.",
+      "items": [
+        {
+          "icon": "Monitor",
+          "title": "Web Applications",
+          "bullets": [
+            "Internal dashboards & admin tools",
+            "Data platforms & secure portals",
+            "Custom business applications"
+          ]
+        },
+        {
+          "icon": "Smartphone",
+          "title": "Mobile Applications",
+          "bullets": [
+            "Enterprise & cross-platform apps",
+            "Secure, API-connected tooling",
+            "Internal workforce apps"
+          ]
+        },
+        {
+          "icon": "Palette",
+          "title": "UI/UX Design",
+          "bullets": [
+            "Wireframes & design systems",
+            "Accessible, responsive interfaces (WCAG)",
+            "User-centered workflows"
+          ]
+        }
+      ]
+    },
+    "howWeBuildIt": {
+      "eyebrow": "// How we build it",
+      "items": [
+        {
+          "title": "AI-Accelerated Engineering",
+          "body": "AI-assisted workflows for faster iteration, stronger testing, and live documentation — without compromising architecture.",
+          "highlighted": true,
+          "linkLabel": "Learn more about AI services",
+          "linkHref": "/ai-automation",
+          "imagePlaceholderLabel": "AI-accelerated engineering — abstract visualization"
+        },
+        {
+          "title": "Clean, Scalable Architecture",
+          "body": "Type-safe stacks, modular structure, API-first design, cloud-ready from day one.",
+          "highlighted": false,
+          "imagePlaceholderLabel": "Clean architecture diagram or abstract"
+        },
+        {
+          "title": "Security & Compliance Built In",
+          "body": "GDPR-aware data handling, role-based access, secure authentication. Built for public-sector and regulated environments.",
+          "highlighted": false,
+          "imagePlaceholderLabel": "Security and compliance visual"
+        }
+      ]
+    },
+    "whoItsFor": {
+      "eyebrow": "// Who it's for",
+      "audienceLabel": "Built for",
+      "audience": "SMEs modernizing operations · public-sector platform upgrades · teams needing senior full-stack leadership · organizations building secure internal tools.",
+      "projectsLabel": "Typical projects",
+      "pills": [
+        "Replace Excel workflows",
+        "Operational dashboards",
+        "Legacy modernization",
+        "Secure citizen portals",
+        "MVP platforms",
+        "Reporting & data viz"
+      ]
+    },
+    "process": {
+      "eyebrow": "// How we work",
+      "heading": "A structured process, from first call to final delivery.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Consultation",
+          "body": "Scope and goals — clear expectations from the start."
+        },
+        {
+          "number": "02",
+          "title": "Architecture Proposal",
+          "body": "Technical assessment and a documented plan."
+        },
+        {
+          "number": "03",
+          "title": "Phased Build",
+          "body": "Structured, transparent milestones with regular visibility."
+        },
+        {
+          "number": "04",
+          "title": "Deploy & Scale",
+          "body": "Launch with long-term maintainability in mind."
+        }
+      ],
+      "credibility": "You work directly with a senior developer — no handoffs, no agency layer. Helsinki-based."
+    },
+    "closingCta": {
+      "eyebrow": "// Next step",
+      "heading": "Build systems that scale.",
+      "body": "Planning a new platform or modernizing an existing one? Let's talk architecture, scalability, and where intelligent automation fits.",
+      "cta": "Discuss Your Project"
+    }
+  },
+  "AiAutomation": {
+    "hero": {
+      "eyebrow": "// AI & Automation",
+      "headline": "AI systems and agentic workflows that do real work.",
+      "body": "Practical automation built into your systems — designed for security, measured by outcomes, not hype.",
+      "ctaPrimary": "Discuss an AI Project",
+      "ctaSecondary": "See Use Cases",
+      "sub": "Agentic workflows · EU-aware deployment · Senior-led."
+    },
+    "agentsExplainer": {
+      "eyebrow": "// The concept",
+      "heading": "What are AI agents?",
+      "bodyP1": "An AI agent is software that can take a goal, break it into steps, use tools and APIs to act, and check its own work — instead of waiting for a human at every step.",
+      "bodyP2": "Used well, that means routine, multi-step tasks get done reliably in the background. Used carelessly, it's a liability. The difference is architecture and guardrails.",
+      "diagramLabel": "AI agent loop: Input feeds into Reason; Reason plans and decides, then calls Act via tools and APIs; Act result feeds into Check; Check loops back to Reason until done."
+    },
+    "businessValue": {
+      "eyebrow": "// Business value",
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "Eliminate repetitive work",
+          "body": "Document handling, data entry, routine triage."
+        },
+        {
+          "icon": "Code2",
+          "title": "Faster software delivery",
+          "body": "AI-assisted coding, testing, and documentation."
+        },
+        {
+          "icon": "Search",
+          "title": "Better information access",
+          "body": "Search and summarize across scattered internal data."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Decision support",
+          "body": "Surface what matters from large or messy datasets."
+        }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "// In practice",
+      "items": [
+        {
+          "title": "Automated code review in CI/CD",
+          "body": "An agent reviews pull requests, flags issues, and drafts documentation before a human looks.",
+          "imagePlaceholderLabel": "Code review automation — abstract visualization"
+        },
+        {
+          "title": "Internal knowledge assistant",
+          "body": "Staff query policies, records, or documentation in plain language instead of digging through systems.",
+          "imagePlaceholderLabel": "Knowledge assistant interface — abstract"
+        },
+        {
+          "title": "Operational triage",
+          "body": "Incoming requests classified, routed, and pre-filled, cutting manual handling time.",
+          "imagePlaceholderLabel": "Operational triage workflow — abstract"
+        }
+      ]
+    },
+    "secureDeployment": {
+      "eyebrow": "// Security & compliance",
+      "heading": "AI built for EU and public-sector realities.",
+      "bullets": [
+        "GDPR-conscious data handling and retention",
+        "Self-hosted or private options where data can't leave your control",
+        "Human-in-the-loop controls on consequential actions",
+        "Auditable behavior and clear boundaries"
+      ]
+    },
+    "process": {
+      "eyebrow": "// How we work",
+      "heading": "A measured approach to AI adoption.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Assess",
+          "body": "Find the highest-value, lowest-risk starting point."
+        },
+        {
+          "number": "02",
+          "title": "Prototype",
+          "body": "A small, measurable pilot."
+        },
+        {
+          "number": "03",
+          "title": "Integrate",
+          "body": "Connect it securely to real systems."
+        },
+        {
+          "number": "04",
+          "title": "Scale",
+          "body": "Expand once value is proven."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Next step",
+      "heading": "Find your first AI win.",
+      "body": "Not sure where AI fits? Let's identify one practical, secure use case worth piloting.",
+      "cta": "Discuss an AI Project"
+    }
+  },
+  "Consulting": {
+    "hero": {
+      "eyebrow": "// Consulting & Architecture",
+      "headline": "Buy the judgment, not just the hands.",
+      "body": "Architecture review, technical strategy, and senior leadership — for teams that need direction before, or alongside, the build.",
+      "ctaPrimary": "Book a Consultation",
+      "ctaSecondary": "View Development Services",
+      "sub": "Architecture · Cloud & AI strategy · Technical leadership."
+    },
+    "whereIHelp": {
+      "eyebrow": "// Advisory services",
+      "items": [
+        {
+          "icon": "ScanSearch",
+          "title": "Architecture review & technical due diligence",
+          "body": "Assess an existing system, a proposed design, or a codebase before you commit budget."
+        },
+        {
+          "icon": "Cloud",
+          "title": "Cloud & infrastructure strategy",
+          "body": "Pragmatic decisions on hosting, scaling, and cost — without vendor lock-in by default."
+        },
+        {
+          "icon": "BrainCircuit",
+          "title": "AI adoption strategy & roadmap",
+          "body": "Where AI realistically fits, what to pilot first, and what to leave alone."
+        },
+        {
+          "icon": "Users",
+          "title": "Fractional / interim technical leadership",
+          "body": "Senior direction for a team or project that lacks it, for a defined period."
+        },
+        {
+          "icon": "FileText",
+          "title": "Procurement & tender support",
+          "body": "Technical input and documentation for public-sector tenders."
+        }
+      ]
+    },
+    "comparison": {
+      "eyebrow": "// When to engage",
+      "leftHeading": "Engage advisory when",
+      "leftBody": "You need direction, a second senior opinion, or a roadmap — and want to de-risk a decision before spending on a build.",
+      "rightHeading": "Engage build when",
+      "rightBody": "The direction is clear and you need it engineered. See Digital Development and AI Services.",
+      "note": "Many engagements start as advisory and continue into build. You're never locked into one or the other."
+    },
+    "publicSector": {
+      "eyebrow": "// Procurement-ready",
+      "heading": "Built to fit Finnish public-sector procurement.",
+      "bullets": [
+        "Available as a named senior consultant in tenders",
+        "Advisory and architecture offered as a distinct service category",
+        "EU / GDPR-aware by default, accessibility-conscious",
+        "Clear documentation and deliverables on every engagement"
+      ]
+    },
+    "process": {
+      "eyebrow": "// How we work",
+      "heading": "A focused engagement, from first call to documented findings.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Scoping call",
+          "body": "What you're deciding, and by when."
+        },
+        {
+          "number": "02",
+          "title": "Focused engagement",
+          "body": "Review, roadmap, or interim leadership."
+        },
+        {
+          "number": "03",
+          "title": "Documented findings",
+          "body": "Clear recommendations you can act on or hand off."
+        },
+        {
+          "number": "04",
+          "title": "Optional follow-on",
+          "body": "Build, or ongoing advisory, if useful."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Next step",
+      "heading": "Need a senior second opinion?",
+      "body": "Whether you're scoping a system, planning AI adoption, or steering a project that needs direction — let's talk.",
+      "cta": "Book a Consultation"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "// About BizVision",
+      "headline": "Senior engineering, one accountable partner.",
+      "body": "BizVision is a one-person consultancy: the person you talk to is the person who designs, builds, and ships your system.",
+      "ctaPrimary": "Start a Conversation"
+    },
+    "background": {
+      "eyebrow": "// Experience",
+      "p1": "A senior freelance software engineer based in Helsinki, with 7+ years across frontend, mobile, and full-stack development — and a current focus on AI-accelerated engineering and agentic workflows.",
+      "p2": "BizVision exists to give SMEs and public-sector teams senior-level execution without agency overhead: no account managers, no handoffs, no junior developers learning on your project.",
+      "p3": "When a project needs specialist skills — design, SEO, or a specific technology — I bring in trusted people from an established network, while staying your single point of accountability. One partner who stays responsible; the right people when the work calls for them.",
+      "credibilityText": "Senior engineer, Helsinki-based. 7+ years across web, mobile, and AI. Direct partner from first call to final delivery."
+    },
+    "philosophy": {
+      "eyebrow": "// Engineering philosophy",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Architecture first",
+          "body": "Structure and decisions before code."
+        },
+        {
+          "icon": "Code2",
+          "title": "Clean and maintainable",
+          "body": "Type-safe, modular, documented. Built to last, not just to ship."
+        },
+        {
+          "icon": "BrainCircuit",
+          "title": "AI-accelerated, human-judged",
+          "body": "AI speeds the work; senior judgment stays in the loop."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Direct and transparent",
+          "body": "Clear milestones, honest timelines, one point of contact."
+        }
+      ]
+    },
+    "workingModel": {
+      "eyebrow": "// Engagement model",
+      "audienceLabel": "How we work together",
+      "audience": "Remote-first, Helsinki-based, available on-site in the capital region when it helps. Project-based or retainer. Comfortable leading solo or embedding with an existing team — and able to scale up with vetted specialists when a project's scope calls for it, without adding agency layers.",
+      "projectsLabel": "Engagement formats",
+      "pills": [
+        "Remote-first",
+        "Helsinki-based",
+        "Project-based",
+        "Retainer",
+        "On-site (capital region)",
+        "Solo or with specialists"
+      ]
+    },
+    "contact": {
+      "eyebrow": "// Get in touch",
+      "whoHeading": "Who should reach out",
+      "whoBody": "Organizations modernizing operations, planning a new platform, exploring AI adoption, or needing a senior second opinion.",
+      "prepHeading": "What to prepare",
+      "prepBody": "A short description of where you are now, what you're trying to achieve, and any timeline or constraints. Rough is fine — clarity comes from the first conversation.",
+      "emailLabel": "Direct contact",
+      "email": "hello@bizvision.fi",
+      "ctaLabel": "Start a Conversation"
+    },
+    "process": {
+      "eyebrow": "// How we work",
+      "heading": "How engagement starts.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "First conversation",
+          "body": "Understand the goal and fit."
+        },
+        {
+          "number": "02",
+          "title": "Scope & proposal",
+          "body": "Clear plan, timeline, and cost."
+        },
+        {
+          "number": "03",
+          "title": "Build or advise",
+          "body": "Structured, transparent delivery."
+        },
+        {
+          "number": "04",
+          "title": "Ongoing or handoff",
+          "body": "Support, retainer, or a clean handover."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Next step",
+      "heading": "Let's talk about what you're building.",
+      "body": "One senior partner, start to finish. Tell me where you are — I'll come back with a clear path.",
+      "cta": "Start a Conversation"
+    }
   }
 }

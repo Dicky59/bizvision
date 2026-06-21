@@ -5,9 +5,9 @@ import MobileMenu from "./MobileMenu";
 const navItems = [
   { key: "digitalDev", href: "/digital-development" },
   { key: "aiAutomation", href: "/ai-automation" },
-  { key: "consulting", href: "/consulting" },
+  { key: "consulting", href: "/consulting-architecture" },
   { key: "about", href: "/about" },
-  { key: "contact", href: "/contact" },
+  { key: "contact", href: "/about#contact" },
 ] as const;
 
 export default async function SiteHeader() {
@@ -47,7 +47,7 @@ export default async function SiteHeader() {
 
         <div className="hidden lg:block shrink-0">
           <Link
-            href="/contact"
+            href="/about#contact"
             className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-ink text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
           >
             {t("cta")}

@@ -119,15 +119,17 @@ demonstrate it:
 
 ## 6. Site structure
 
-1. **Homepage** — positioning + authority (full copy in `content/homepage.md`)
-2. **Digital Development** — Web + Mobile + UI/UX as one capability
-3. **AI & Intelligent Automation** — the strategic differentiator / thought-leadership page
-4. **Consulting & Architecture** — senior consulting, technical leadership, procurement-relevant
-5. **About** — experience, why BizVision, philosophy, Helsinki credibility, working model
-6. **Contact / Consultation** — who should contact, what to prepare, how engagement starts
+Five pages (Contact is merged into the About page):
 
-Copy for pages 2–6 will be provided later. Build the shared layout (header/nav,
-footer, page shell) so adding them is content-only.
+1. **Homepage** — positioning + authority (`content/homepage.md`)
+2. **Digital Development** — Web + Mobile + UI/UX as one capability (`content/digital-development.md`)
+3. **AI & Intelligent Automation** — the strategic differentiator / thought-leadership page (`content/ai-automation.md`)
+4. **Consulting & Architecture** — senior consulting, technical leadership, procurement-relevant (`content/consulting-architecture.md`)
+5. **About & Contact** — experience, philosophy, working model, and contact info merged into one page (`content/about-contact.md`)
+
+All five content files include inline layout hints as HTML comments — `<!-- LAYOUT -->`,
+`<!-- IMAGE -->`, and `<!-- EYEBROW -->`. Honour them: they set section rhythm, card/grid
+usage, image placeholders, and the mono ochre eyebrow + 01/02 numbering signature from §4.
 
 ---
 
@@ -177,7 +179,9 @@ reduced motion, matches the design tokens.
   Decide i18n here (§3).
 - **Phase 1 — Homepage:** build with the real copy. **Get the design system
   approved here before going further.**
-- **Phase 2 — Remaining pages:** 2–6, reusing the system. Content provided later.
+- **Phase 2 — Remaining pages:** ✓ Pages 2–3 complete (Digital Development, AI Automation).
+  ✓ Pages 4–5 complete (Consulting & Architecture, About & Contact). All five page content
+  files are in `content/`. Contact is merged into the About page — no standalone Contact route.
 - **Phase 3 — Chatbot:** API route + widget + rate limiting.
 - **Phase 4 — Polish & ship:** metadata/SEO, OG images, sitemap, robots,
   Lighthouse + a11y pass, deploy to Vercel, wire `www.bizvision.fi`.

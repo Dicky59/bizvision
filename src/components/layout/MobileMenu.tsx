@@ -86,7 +86,7 @@ export default function MobileMenu({
           ))}
           <div className="pt-6">
             <Link
-              href="/contact"
+              href="/about#contact"
               onClick={() => setOpen(false)}
               className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep"
             >

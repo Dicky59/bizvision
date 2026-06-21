@@ -4,9 +4,9 @@ import { getTranslations } from "next-intl/server";
 const navItems = [
   { key: "digitalDev", href: "/digital-development" },
   { key: "aiAutomation", href: "/ai-automation" },
-  { key: "consulting", href: "/consulting" },
+  { key: "consulting", href: "/consulting-architecture" },
   { key: "about", href: "/about" },
-  { key: "contact", href: "/contact" },
+  { key: "contact", href: "/about#contact" },
 ] as const;
 
 export default async function SiteFooter() {
