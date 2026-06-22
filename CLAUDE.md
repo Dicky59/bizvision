@@ -160,6 +160,7 @@ have a tasteful AI assistant on its own site.
   steers toward "discuss your project" / the contact flow. The site is small
   enough that the content goes straight in the system prompt — **no RAG / vector
   DB needed.**
+- the system prompt content lives in `content/chatbox-content.md`
 - Model: **`claude-haiku-4-5`** is plenty for a lead-gen assistant and cheap; bump
   to **`claude-sonnet-4-6`** only if answer quality needs it.
 

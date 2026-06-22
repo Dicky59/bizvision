@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+import ChatWidget from "@/components/layout/ChatWidget";
 
 type Props = {
   children: React.ReactNode;
@@ -26,6 +27,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <SiteHeader />
       <main id="main-content">{children}</main>
       <SiteFooter />
+      <ChatWidget />
     </NextIntlClientProvider>
   );
 }

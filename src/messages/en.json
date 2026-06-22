@@ -619,5 +619,16 @@
       "body": "One senior partner, start to finish. Tell me where you are — I'll come back with a clear path.",
       "cta": "Start a Conversation"
     }
+  },
+  "ChatBot": {
+    "triggerLabel": "Ask a question",
+    "title": "BizVision Assistant",
+    "eyebrow": "// ask anything",
+    "placeholder": "Ask about our services…",
+    "send": "Send message",
+    "close": "Close chat",
+    "thinking": "Thinking…",
+    "welcomeMessage": "Hi — I'm the BizVision assistant. Ask me about our services, how we work, or whether we might be a good fit for your project.",
+    "errorMessage": "Something went wrong. Please try again or email hello@bizvision.fi directly."
   }
 }
