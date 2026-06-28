@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Placeholder from "@/components/ui/Placeholder";
 
@@ -8,7 +9,7 @@ interface PageHeroProps {
   ctaPrimary: { label: string; href: string };
   ctaSecondary?: { label: string; href: string };
   sub?: string;
-  image?: { label: string; dimensions: string };
+  image?: { label: string; dimensions: string; src?: string; alt?: string };
 }
 
 export default function PageHero({ eyebrow, headline, body, ctaPrimary, ctaSecondary, sub, image }: PageHeroProps) {
@@ -52,7 +53,19 @@ export default function PageHero({ eyebrow, headline, body, ctaPrimary, ctaSecon
 
           {image && (
             <div className="hidden lg:block">
-              <Placeholder label={image.label} dimensions={image.dimensions} ratio="16/10" />
+              {image.src ? (
+                <div className="relative w-full aspect-16/10 rounded overflow-hidden">
+                  <Image
+                    src={image.src}
+                    alt={image.alt ?? ""}
+                    fill
+                    className="object-contain"
+                    sizes="(min-width: 1024px) 50vw, 0px"
+                  />
+                </div>
+              ) : (
+                <Placeholder label={image.label} dimensions={image.dimensions} ratio="16/10" />
+              )}
             </div>
           )}
         </div>

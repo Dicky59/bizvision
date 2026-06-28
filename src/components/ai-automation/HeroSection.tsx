@@ -1,5 +1,5 @@
-import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/shared/PageHero";
+import { getTranslations } from "next-intl/server";
 
 export default async function HeroSection() {
   const t = await getTranslations("AiAutomation.hero");
@@ -12,7 +12,12 @@ export default async function HeroSection() {
       ctaPrimary={{ label: t("ctaPrimary"), href: "/contact" }}
       ctaSecondary={{ label: t("ctaSecondary"), href: "#use-cases" }}
       sub={t("sub")}
-      image={{ label: "AI and agentic workflows — abstract flow motif, not robots", dimensions: "1600×1000" }}
+      image={{
+        src: "/illustrations/data-extraction.svg",
+        alt: "",
+        label: "AI & intelligent automation hero — abstract intelligence visual",
+        dimensions: "1600×1000",
+      }}
     />
   );
 }

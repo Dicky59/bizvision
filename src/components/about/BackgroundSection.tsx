@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import CredibilityBlock from "@/components/shared/CredibilityBlock";
 
 export default async function BackgroundSection() {
   const t = await getTranslations("About.background");
@@ -7,17 +7,33 @@ export default async function BackgroundSection() {
   return (
     <section className="bg-paper py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-14">
-          {t("eyebrow")}
-        </p>
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 lg:gap-20 items-start">
+          {/* Headshot */}
+          <div className="relative w-56 sm:w-72 lg:w-full aspect-[4/5] mx-auto lg:mx-0">
+            <Image
+              src="/illustrations/cv-pic.png"
+              alt="Pekka Arvolainen — BizVision founder"
+              fill
+              className="object-contain object-top"
+              priority
+            />
+          </div>
 
-        <div className="max-w-2xl space-y-5 text-base text-taupe leading-relaxed">
-          <p>{t("p1")}</p>
-          <p>{t("p2")}</p>
-          <p>{t("p3")}</p>
+          {/* Text */}
+          <div>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-8">
+              {t("eyebrow")}
+            </p>
+            <div className="space-y-5 text-base text-taupe leading-relaxed mb-10">
+              <p>{t("p1")}</p>
+              <p>{t("p2")}</p>
+              <p>{t("p3")}</p>
+            </div>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep border-t border-bone pt-6">
+              {t("credibilityText")}
+            </p>
+          </div>
         </div>
-
-        <CredibilityBlock text={t("credibilityText")} />
       </div>
     </section>
   );

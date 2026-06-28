@@ -1,5 +1,5 @@
-import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/shared/PageHero";
+import { getTranslations } from "next-intl/server";
 
 export default async function HeroSection() {
   const t = await getTranslations("DigitalDevelopment.hero");
@@ -12,7 +12,12 @@ export default async function HeroSection() {
       ctaPrimary={{ label: t("ctaPrimary"), href: "/contact" }}
       ctaSecondary={{ label: t("ctaSecondary"), href: "/ai-automation" }}
       sub={t("sub")}
-      image={{ label: "Digital development hero — abstract engineering visual", dimensions: "1600×1000" }}
+      image={{
+        src: "/illustrations/programming.svg",
+        alt: "",
+        label: "Digital development hero — abstract engineering visual",
+        dimensions: "1600×1000",
+      }}
     />
   );
 }

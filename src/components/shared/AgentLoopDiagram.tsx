@@ -10,7 +10,7 @@ export default function AgentLoopDiagram({ ariaLabel }: AgentLoopDiagramProps) {
       className="w-full"
     >
       <svg
-        viewBox="0 0 420 320"
+        viewBox="0 108 420 190"
         xmlns="http://www.w3.org/2000/svg"
         className="w-full h-auto"
         aria-hidden="true"
@@ -23,7 +23,7 @@ export default function AgentLoopDiagram({ ariaLabel }: AgentLoopDiagramProps) {
             .node-label { font-family: var(--font-display); font-size: 13px; fill: var(--color-ink); font-weight: 600; text-anchor: middle; dominant-baseline: middle; }
             .arrow { stroke: var(--color-ochre-deep); stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); }
             .loop-arrow { stroke: var(--color-ochre); stroke-width: 1.5; fill: none; stroke-dasharray: 4 3; marker-end: url(#arrowhead-loop); }
-            .node-sub { font-family: var(--font-mono); font-size: 9px; fill: var(--color-taupe); text-anchor: middle; dominant-baseline: middle; }
+            .node-sub { font-family: var(--font-mono); font-size: 11px; fill: var(--color-taupe); text-anchor: middle; dominant-baseline: middle; }
           `}</style>
           <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
             <path d="M0,0 L0,6 L8,3 z" fill="var(--color-ochre-deep)" />
@@ -64,7 +64,7 @@ export default function AgentLoopDiagram({ ariaLabel }: AgentLoopDiagramProps) {
         <path d="M154,258 L80,258 L80,152 L154,152" className="loop-arrow" />
 
         {/* Loop label */}
-        <text x="42" y="206" style={{ fontFamily: "var(--font-mono)", fontSize: "9px", fill: "var(--color-ochre)", textAnchor: "middle" }}>repeat</text>
+        <text x="42" y="206" style={{ fontFamily: "var(--font-mono)", fontSize: "11px", fill: "var(--color-ochre)", textAnchor: "middle" }}>repeat</text>
       </svg>
     </figure>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { type ReactNode } from "react";
 import Placeholder from "@/components/ui/Placeholder";
 
 export interface FeatureRow {
@@ -7,6 +8,7 @@ export interface FeatureRow {
   link?: { label: string; href: string };
   highlighted?: boolean;
   imagePlaceholderLabel: string;
+  illustration?: ReactNode;
 }
 
 interface AlternatingRowsProps {
@@ -37,11 +39,13 @@ export default function AlternatingRows({ eyebrow, rows, background = "paper", i
                 }`}
               >
                 <div>
-                  <Placeholder
-                    label={row.imagePlaceholderLabel}
-                    dimensions="800×500"
-                    ratio="16/10"
-                  />
+                  {row.illustration ?? (
+                    <Placeholder
+                      label={row.imagePlaceholderLabel}
+                      dimensions="800×500"
+                      ratio="16/10"
+                    />
+                  )}
                 </div>
 
                 <div className={row.highlighted ? "border-l-2 border-ochre pl-6" : ""}>
