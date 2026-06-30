@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import HeroSection from "@/components/homepage/HeroSection";
 import ProblemSection from "@/components/homepage/ProblemSection";
@@ -12,6 +13,29 @@ import ClosingCtaSection from "@/components/homepage/ClosingCtaSection";
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "BizVision — Software Development Helsinki",
+    description:
+      "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+    alternates: {
+      canonical: "/",
+      languages: { en: "/" },
+    },
+    openGraph: {
+      title: "BizVision — Software Development Helsinki",
+      description:
+        "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+      url: "/",
+    },
+    twitter: {
+      title: "BizVision — Software Development Helsinki",
+      description:
+        "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+    },
+  };
+}
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;

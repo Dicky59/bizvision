@@ -26,9 +26,19 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.bizvision.fi"),
   title: "BizVision — Software Development Helsinki",
   description:
     "Senior software development for businesses and public sector organisations. Web, mobile, UI/UX, and AI systems built for clarity and long-term use.",
+  openGraph: {
+    siteName: "BizVision",
+    locale: "en_GB",
+    type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "BizVision" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default async function RootLayout({
