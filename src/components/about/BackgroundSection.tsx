@@ -14,6 +14,7 @@ export default async function BackgroundSection() {
               src="/illustrations/cv-pic.png"
               alt="Pekka Arvolainen — BizVision founder"
               fill
+              sizes="(max-width: 640px) 224px, (max-width: 1024px) 288px, 300px"
               className="object-contain object-top"
               priority
             />

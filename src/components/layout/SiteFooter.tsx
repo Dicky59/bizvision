@@ -16,12 +16,18 @@ export default async function SiteFooter() {
   return (
     <footer className="bg-surface border-t border-bone">
       <div className="mx-auto max-w-6xl px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 lg:gap-16">
           <div>
             <p className="font-display font-bold text-lg text-ink mb-3">
               Biz<span className="text-ochre-deep">Vision</span>
             </p>
             <p className="text-sm text-taupe leading-relaxed">{t("tagline")}</p>
+          </div>
+
+          <div>
+            <p className="text-sm font-medium text-ink">BizVision Oy</p>
+            <p className="text-sm text-taupe mt-1">Pekka Laine</p>
+            <p className="text-sm text-taupe mt-1">Business ID: 2267760-2</p>
           </div>
 
           <nav aria-label={t("nav")}>
@@ -40,8 +46,16 @@ export default async function SiteFooter() {
           </nav>
 
           <div>
-            <p className="text-sm font-medium text-ink mb-1">{t("location")}</p>
-            <p className="text-sm text-taupe">{t("gdpr")}</p>
+            <a href={`mailto:${t("email")}`} className="text-sm text-taupe hover:text-ink transition-colors block mb-3">
+              {t("email")}
+            </a>
+            <p className="text-sm text-taupe leading-snug">
+              {t("addressLine1")}<br />{t("addressLine2")}
+            </p>
+            <a href={`tel:${t("phone").replace(/\s/g, "")}`} className="text-sm text-taupe hover:text-ink transition-colors block mt-3">
+              {t("phone")}
+            </a>
+            <p className="text-sm text-taupe mt-3">{t("gdpr")}</p>
           </div>
         </div>
 

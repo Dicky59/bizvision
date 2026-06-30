@@ -18,7 +18,10 @@
     "consulting": "Consulting & Architecture",
     "about": "About",
     "contact": "Contact",
-    "location": "Helsinki, Finland",
+    "email": "info@bizvision.fi",
+    "addressLine1": "Laivurinkatu 9 A 11,",
+    "addressLine2": "00150 Helsinki, Finland",
+    "phone": "+358 40 77 99 859",
     "gdpr": "GDPR-aware",
     "copyright": "© {year} BizVision"
   },
@@ -321,7 +324,7 @@
           "body": "Launch with long-term maintainability in mind."
         }
       ],
-      "credibility": "You work directly with a senior developer — no handoffs, no agency layer. Helsinki-based."
+      "credibility": "You work directly with a senior developer — no handoffs, no agency layer."
     },
     "closingCta": {
       "eyebrow": "// Next step",
@@ -584,7 +587,7 @@
       "prepHeading": "What to prepare",
       "prepBody": "A short description of where you are now, what you're trying to achieve, and any timeline or constraints. Rough is fine — clarity comes from the first conversation.",
       "emailLabel": "Direct contact",
-      "email": "hello@bizvision.fi",
+      "email": "info@bizvision.fi",
       "ctaLabel": "Start a Conversation"
     },
     "process": {
@@ -629,6 +632,6 @@
     "close": "Close chat",
     "thinking": "Thinking…",
     "welcomeMessage": "Hi — I'm the BizVision assistant. Ask me about our services, how we work, or whether we might be a good fit for your project.",
-    "errorMessage": "Something went wrong. Please try again or email hello@bizvision.fi directly."
+    "errorMessage": "Something went wrong. Please try again or email info@bizvision.fi directly."
   }
 }
