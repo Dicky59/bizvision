@@ -4,6 +4,25 @@ import { cn } from "@/lib/utils";
 import { MessageCircle, Send, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import type { Components } from "react-markdown";
+
+const markdownComponents: Components = {
+  p: ({ children }) => <p className="mb-1.5 last:mb-0">{children}</p>,
+  ul: ({ children }) => <ul className="my-1.5 ml-4 list-disc space-y-0.5">{children}</ul>,
+  ol: ({ children }) => <ol className="my-1.5 ml-4 list-decimal space-y-0.5">{children}</ol>,
+  li: ({ children }) => <li className="leading-snug">{children}</li>,
+  strong: ({ children }) => <strong className="font-semibold text-ink">{children}</strong>,
+  h1: ({ children }) => <p className="font-semibold mb-1">{children}</p>,
+  h2: ({ children }) => <p className="font-semibold mb-1">{children}</p>,
+  h3: ({ children }) => <p className="font-semibold mb-1">{children}</p>,
+  h4: ({ children }) => <p className="font-semibold mb-1">{children}</p>,
+  code: ({ children }) => (
+    <code className="font-mono text-xs bg-bone/80 px-1 py-0.5 rounded text-ochre-deep">
+      {children}
+    </code>
+  ),
+};
 
 interface Message {
   id: string;
@@ -224,14 +243,22 @@ export default function ChatWidget() {
                   : "bg-bone/50 self-start"
               )}
             >
-              {m.content}
+              {m.role === "assistant" ? (
+                <ReactMarkdown components={markdownComponents}>
+                  {m.content}
+                </ReactMarkdown>
+              ) : (
+                m.content
+              )}
             </div>
           ))}
 
           {/* Streaming content (visual only — SR gets the completed announcement) */}
           {streamingContent && (
             <div className="rounded-lg px-3 py-2 text-sm text-ink max-w-[88%] leading-relaxed bg-bone/50 self-start">
-              {streamingContent}
+              <ReactMarkdown components={markdownComponents}>
+                {streamingContent}
+              </ReactMarkdown>
             </div>
           )}
 
