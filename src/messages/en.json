@@ -590,6 +590,24 @@
       "email": "info@bizvision.fi",
       "ctaLabel": "Start a Conversation"
     },
+    "contactForm": {
+      "labelName": "Name",
+      "labelEmail": "Email",
+      "labelMessage": "Message",
+      "placeholderName": "Your name",
+      "placeholderEmail": "you@example.com",
+      "placeholderMessage": "Tell me where you are, what you're trying to achieve, and any constraints or timeline. Rough is fine.",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successHeading": "Message sent",
+      "successBody": "Thanks — I'll come back to you within one business day.",
+      "errorRequired": "This field is required.",
+      "errorEmail": "Please enter a valid email address.",
+      "errorMessageTooLong": "Message must be under 5,000 characters.",
+      "errorRateLimit": "Too many messages sent. Please try again later or email info@bizvision.fi directly.",
+      "errorGeneric": "Something went wrong. Please try again or email info@bizvision.fi directly.",
+      "gdpr": "Your message is used only to respond to your enquiry. No tracking, no storage beyond the email."
+    },
     "process": {
       "eyebrow": "// How we work",
       "heading": "How engagement starts.",

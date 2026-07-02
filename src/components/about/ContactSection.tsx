@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import ContactForm from "./ContactForm";
 
 export default async function ContactSection() {
   const t = await getTranslations("About.contact");
@@ -26,27 +26,22 @@ export default async function ContactSection() {
               </h3>
               <p className="text-base text-taupe leading-relaxed">{t("prepBody")}</p>
             </div>
-          </div>
 
-          <div className="flex flex-col justify-center gap-6">
             <div>
               <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-3">
                 {t("emailLabel")}
               </p>
               <a
                 href={`mailto:${t("email")}`}
-                className="font-display font-semibold text-ink text-xl underline underline-offset-4 decoration-bone hover:decoration-ochre-deep transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
+                className="font-display font-semibold text-ink text-xl underline underline-offset-4 decoration-bone hover:decoration-ochre-deep transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
               >
                 {t("email")}
               </a>
             </div>
+          </div>
 
-            <Link
-              href="/about#contact"
-              className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep self-start"
-            >
-              {t("ctaLabel")}
-            </Link>
+          <div>
+            <ContactForm />
           </div>
         </div>
       </div>
