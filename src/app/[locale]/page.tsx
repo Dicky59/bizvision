@@ -18,7 +18,7 @@ export function generateMetadata(): Metadata {
   return {
     title: "BizVision — Software Development Helsinki",
     description:
-      "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+      "AI and automation systems for your business processes, plus web, mobile, and software development for Finnish businesses and public sector.",
     alternates: {
       canonical: "/",
       languages: { en: "/" },
@@ -26,13 +26,13 @@ export function generateMetadata(): Metadata {
     openGraph: {
       title: "BizVision — Software Development Helsinki",
       description:
-        "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+        "AI and automation systems for your business processes, plus web, mobile, and software development for Finnish businesses and public sector.",
       url: "/",
     },
     twitter: {
       title: "BizVision — Software Development Helsinki",
       description:
-        "Web, mobile, and AI systems built for Finnish businesses and public sector. Senior execution, one accountable partner, no agency overhead.",
+        "AI and automation systems for your business processes, plus web, mobile, and software development for Finnish businesses and public sector.",
     },
   };
 }

@@ -6,7 +6,7 @@
 
 ### Web, mobile, and AI-powered systems — built for clarity and long-term use
 
-BizVision is a software development partner helping businesses and public sector organisations design and build secure, maintainable digital systems.
+BizVision is a software development partner helping businesses and public sector organisations design and build secure, maintainable digital systems — including AI and automation that streamlines their core processes.
 
 From modern web applications and mobile apps to AI agents and internal automation tools, we build software that actually supports how your organisation works — today and as it grows.
 

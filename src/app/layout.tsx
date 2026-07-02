@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.bizvision.fi"),
   title: "BizVision — Software Development Helsinki",
   description:
-    "Senior software development for businesses and public sector organisations. Web, mobile, UI/UX, and AI systems built for clarity and long-term use.",
+    "AI and automation systems for your business processes, plus web, mobile, and UI/UX development — for businesses and public sector organisations.",
   openGraph: {
     siteName: "BizVision",
     locale: "en_GB",
