@@ -10,7 +10,7 @@ export default async function ClosingCtaSection() {
       heading={t("heading")}
       body={t("body")}
       ctaLabel={t("cta")}
-      ctaHref="/contact"
+      ctaHref="/about#contact"
     />
   );
 }

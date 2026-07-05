@@ -10,7 +10,7 @@ export default async function CtaSection() {
       heading={t("heading")}
       body={t("body")}
       ctaLabel={t("cta")}
-      ctaHref="/about"
+      ctaHref="/about#contact"
     />
   );
 }

@@ -24,7 +24,7 @@ export default async function HeroSection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href="/contact"
+            href="/about#contact"
             className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
           >
             {t("ctaPrimary")}

@@ -9,7 +9,7 @@ export default async function HeroSection() {
       eyebrow={t("eyebrow")}
       headline={t("headline")}
       body={t("body")}
-      ctaPrimary={{ label: t("ctaPrimary"), href: "/about" }}
+      ctaPrimary={{ label: t("ctaPrimary"), href: "/about#contact" }}
       ctaSecondary={{ label: t("ctaSecondary"), href: "/digital-development" }}
       sub={t("sub")}
     />

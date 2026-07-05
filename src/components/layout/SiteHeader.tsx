@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import HashLink from "@/components/shared/HashLink";
 import MobileMenu from "./MobileMenu";
 
 const navItems = [
@@ -35,23 +36,23 @@ export default async function SiteHeader() {
           className="hidden lg:flex items-center gap-6"
         >
           {navItems.map((item) => (
-            <Link
+            <HashLink
               key={item.href}
               href={item.href}
               className="text-sm font-medium text-taupe hover:text-ink transition-colors whitespace-nowrap"
             >
               {t(item.key)}
-            </Link>
+            </HashLink>
           ))}
         </nav>
 
         <div className="hidden lg:block shrink-0">
-          <Link
+          <HashLink
             href="/about#contact"
             className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-ink text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
           >
             {t("cta")}
-          </Link>
+          </HashLink>
         </div>
 
         <MobileMenu

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import HashLink from "@/components/shared/HashLink";
 
 interface NavItem {
   href: string;
@@ -75,23 +75,23 @@ export default function MobileMenu({
           className="flex flex-col p-6 gap-1"
         >
           {items.map((item) => (
-            <Link
+            <HashLink
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
               className="py-3 px-2 text-base font-medium text-ink border-b border-bone last:border-0 hover:text-ochre-deep transition-colors"
             >
               {item.label}
-            </Link>
+            </HashLink>
           ))}
           <div className="pt-6">
-            <Link
+            <HashLink
               href="/about#contact"
               onClick={() => setOpen(false)}
               className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep"
             >
               {ctaLabel}
-            </Link>
+            </HashLink>
           </div>
         </nav>
       </div>
