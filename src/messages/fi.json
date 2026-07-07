@@ -556,6 +556,8 @@
     },
     "background": {
       "eyebrow": "// Kokemus",
+      "founderName": "Pekka Laine",
+      "founderTitle": "Perustaja · Senior-ohjelmistokehittäjä",
       "p1": "Tarjoamme monipuolista ja vahvaa senioritason full-stack-, frontend- ja mobiilijärjestelmien kehitysosaamista Helsingistä käsin. Tämän päivän painopisteenämme ovat erityisesti tekoälyllä tehostetut kehitysmenetelmät sekä älykkäät, agenttipohjaiset työnkulut.",
       "p2": "BizVision on perustettu tuomaan pk-yrityksille ja julkishallinnon organisaatioille huipputason tekninen toteutus ilman perinteisten IT-talojen raskaita yleiskuluja. Meillä ei ole tehottomia asiakkuuspäälliköitä, ylimääräisiä välikäsiä tai projekteissasi opettelevia junioreita.",
       "p3": "Kun hanke vaatii oman ydinosaamisemme ulkopuolista erikoisasiantuntemusta, tuomme projektiin mukaan luotetut ammattilaiset vakiintuneesta verkostostamme. Säilytämme kuitenkin aina kokonaisvastuun toimituksesta ja laadusta. Saat yhden selkeän kumppanin, joka kantaa vastuun, ja parhaat asiantuntijat juuri silloin, kun työ sitä vaatii.",

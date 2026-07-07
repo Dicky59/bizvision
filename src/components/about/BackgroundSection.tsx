@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 export default async function BackgroundSection() {
   const t = await getTranslations("About.background");
@@ -7,17 +7,27 @@ export default async function BackgroundSection() {
   return (
     <section className="bg-paper py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-12 lg:gap-20 items-start">
           {/* Headshot */}
-          <div className="relative w-56 sm:w-72 lg:w-full aspect-[4/5] mx-auto lg:mx-0">
-            <Image
-              src="/illustrations/cv-pic.png"
-              alt="Pekka Arvolainen — BizVision founder"
-              fill
-              sizes="(max-width: 640px) 224px, (max-width: 1024px) 288px, 300px"
-              className="object-contain object-top"
-              priority
-            />
+          <div className="w-40 sm:w-48 lg:w-full mx-auto lg:mx-0">
+            <div className="rounded-xl border border-bone bg-bone/40 p-3">
+              <div className="relative aspect-4/5 overflow-hidden rounded-lg">
+                <Image
+                  src="/illustrations/cv-pic.png"
+                  alt="Pekka Laine — BizVision founder"
+                  fill
+                  sizes="(max-width: 640px) 160px, (max-width: 1024px) 192px, 220px"
+                  className="object-cover object-top"
+                  priority
+                />
+              </div>
+            </div>
+            <div className="mt-4 text-center lg:text-left">
+              <p className="text-ink font-medium">{t("founderName")}</p>
+              <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mt-1">
+                {t("founderTitle")}
+              </p>
+            </div>
           </div>
 
           {/* Text */}

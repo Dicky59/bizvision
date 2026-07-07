@@ -556,6 +556,8 @@
     },
     "background": {
       "eyebrow": "// Experience",
+      "founderName": "Pekka Laine",
+      "founderTitle": "Founder · Senior Software Engineer",
       "p1": "We are senior software engineers based in the Helsinki area, with long experience across frontend, mobile, and full-stack development — and a current focus on AI-accelerated engineering and agentic workflows.",
       "p2": "BizVision exists to give SMEs and public-sector teams senior-level execution without agency overhead: no account managers, no handoffs, no junior developers learning on your project.",
       "p3": "When a project needs specialist skills — design, SEO, or a specific technology — we bring in trusted people from an established network, while staying your single point of accountability. One partner who stays responsible; the right people when the work calls for them.",
