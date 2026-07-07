@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import HeroSection from "@/components/consulting-architecture/HeroSection";
 import WhereIHelpSection from "@/components/consulting-architecture/WhereIHelpSection";
 import ComparisonSection from "@/components/consulting-architecture/ComparisonSection";
@@ -6,26 +7,33 @@ import PublicSectorSection from "@/components/consulting-architecture/PublicSect
 import ProcessSection from "@/components/consulting-architecture/ProcessSection";
 import CtaSection from "@/components/consulting-architecture/CtaSection";
 
-export function generateMetadata(): Metadata {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+const PATH = "/consulting-architecture";
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Consulting.meta" });
+  const title = t("title");
+  const description = t("description");
+  const canonical = locale === "en" ? PATH : `/fi${PATH}`;
+
   return {
-    title: "Technical Consulting & Architecture — BizVision",
-    description:
-      "Senior technical judgment for teams that need direction. Architecture reviews, technical strategy, and engineering leadership — Helsinki.",
+    title,
+    description,
     alternates: {
-      canonical: "/consulting-architecture",
-      languages: { en: "/consulting-architecture" },
+      canonical,
+      languages: { en: PATH, fi: `/fi${PATH}`, "x-default": PATH },
     },
     openGraph: {
-      title: "Technical Consulting & Architecture — BizVision",
-      description:
-        "Senior technical judgment for teams that need direction. Architecture reviews, technical strategy, and engineering leadership — Helsinki.",
-      url: "/consulting-architecture",
+      title,
+      description,
+      url: canonical,
+      locale: locale === "fi" ? "fi_FI" : "en_GB",
     },
-    twitter: {
-      title: "Technical Consulting & Architecture — BizVision",
-      description:
-        "Senior technical judgment for teams that need direction. Architecture reviews, technical strategy, and engineering leadership — Helsinki.",
-    },
+    twitter: { title, description },
   };
 }
 

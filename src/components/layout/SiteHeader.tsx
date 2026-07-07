@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import HashLink from "@/components/shared/HashLink";
 import MobileMenu from "./MobileMenu";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const navItems = [
   { key: "digitalDev", href: "/digital-development" },
@@ -46,7 +47,8 @@ export default async function SiteHeader() {
           ))}
         </nav>
 
-        <div className="hidden lg:block shrink-0">
+        <div className="hidden lg:flex items-center gap-5 shrink-0">
+          <LocaleSwitcher />
           <HashLink
             href="/about#contact"
             className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-ink text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"

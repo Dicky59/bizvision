@@ -1,0 +1,674 @@
+{
+  "Nav": {
+    "logoLabel": "BizVision",
+    "digitalDev": "Digitaalinen kehitys",
+    "aiAutomation": "Tekoäly ja automaatio",
+    "consulting": "Konsultointi ja arkkitehtuuri",
+    "about": "Meistä",
+    "contact": "Yhteystiedot",
+    "cta": "Ota yhteyttä",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko"
+  },
+  "Footer": {
+    "tagline": "Senioritason ohjelmistokehitystä yrityksille, jotka haluavat pysyä askeleen edellä.",
+    "nav": "Navigaatio",
+    "digitalDev": "Digitaalinen kehitys",
+    "aiAutomation": "Tekoäly ja automaatio",
+    "consulting": "Konsultointi ja arkkitehtuuri",
+    "about": "Meistä",
+    "contact": "Yhteystiedot",
+    "email": "info@bizvision.fi",
+    "addressLine1": "Laivurinkatu 9 A 11,",
+    "addressLine2": "00150 Helsinki",
+    "phone": "+358 40 77 99 859",
+    "gdpr": "GDPR-mukainen",
+    "copyright": "© {year} BizVision"
+  },
+  "HomePage": {
+    "meta": {
+      "title": "BizVision — Ohjelmistokehitystä Helsingissä",
+      "description": "Tekoäly- ja automaatiojärjestelmiä liiketoimintaprosesseihin, sekä web-, mobiili- ja ohjelmistokehitystä suomalaisille yrityksille ja julkishallinnolle."
+    },
+    "hero": {
+      "eyebrow": "// ohjelmistokehitys",
+      "headline": "Web-, mobiili- ja tekoälyjärjestelmät. Modernia teknologiaa, joka vie yrityksesi askeleen edelle.",
+      "subhead": "BizVision on ohjelmistokumppani yrityksille ja julkishallinnolle, jotka haluavat uudistaa toimintaansa modernilla teknologialla. Rakennamme turvallisia ja ylläpidettäviä digitaalisia järjestelmiä, joissa tekoäly ja automaatio valjastetaan tehostamaan ydinprosessejasi.",
+      "body": "Olipa kyseessä verkko- ja mobiilisovellus, tekoälyagentti tai sisäinen työkalu – toteutamme ohjelmistot aina organisaatiosi todellisten tarpeiden pohjalta.",
+      "ctaPrimary": "Ota yhteyttä",
+      "ctaSecondary": "Tutustu palveluihin"
+    },
+    "problem": {
+      "eyebrow": "// ongelma",
+      "lead": "Jossain vaiheessa taulukkolaskenta ei enää riitä.",
+      "items": [
+        "Sisäisistä työkaluista tulee kömpelöitä.",
+        "Data on hajallaan liian monessa paikassa.",
+        "Manuaaliset työvaiheet hiipivät arkeen.",
+        "Vanhat järjestelmät tuntuvat riskialttiilta mutta mahdottomilta korvata."
+      ]
+    },
+    "services": {
+      "eyebrow": "// mitä teemme",
+      "heading": "Ohjelmistokehitystä alusta loppuun, tekoäly mukana alusta asti",
+      "subhead": "Suunnittelemme ja rakennamme turvallisia, toimintavarmoja ja moderneja digitaalisia järjestelmiä. Yhdistämme senioritason koodausosaamisen, käyttäjälähtöisen suunnittelun ja tekoälyllä tehostetut työtavat.",
+      "items": [
+        {
+          "title": "Verkkosovellukset & Taustajärjestelmät",
+          "body": "Moderneja verkkosovelluksia, liiketoimintasovelluksia ja taustajärjestelmiä, jotka rakennetaan puhtaalla arkkitehtuurilla."
+        },
+        {
+          "title": "Mobiilikehitys",
+          "body": "Luotettavia alustariippumattomia ja natiiveja mobiilisovelluksia todelliseen käyttöön suunniteltuna."
+        },
+        {
+          "title": "UI/UX-suunnittelu",
+          "body": "Selkeää, saavutettavaa ja käytännöllistä käyttöliittymäsuunnittelua. Meille design on työkalu, ei pelkkä koristus."
+        },
+        {
+          "title": "Tekoälyagentit ja älykkäät työnkulut",
+          "body": "Tekoälyratkaisuja, jotka automatisoivat rutiinit ja vapauttavat aikaa asiantuntijatyölle — turvallisesti ja vastuullisesti.",
+          "bullets": [
+            "Räätälöidyt tekoälyagentit sisäisten prosessien ja asiakaspalvelun tehostamiseen",
+            "Älykäs documentation käsittely: automaattinen tiedon haku, analysointi ja luokittelu",
+            "Datan tiivistäminen ja raportointi reaaliaikaisesti",
+            "LLM-integraatioihin perustuva työnkulkujen automatisointi",
+            "Turvalliset tekoälyratkaisut (pilvi- tai yksityinen infrastruktuuri)"
+          ]
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "// miksi bizvision",
+      "items": [
+        {
+          "title": "Senioritason osaamista — ilman toimiston yleiskuluja",
+          "body": "Työskentelet suoraan kokeneen kehittäjän kanssa. Ei asiakkuuspäälliköitä. Ei ylimääräisiä kerroksia. Ei junioreita opettelemassa projektissasi.",
+          "bullets": [
+            "Selkeää ja nopeaa viestintää",
+            "Käytännöllisiä teknisiä päätöksiä",
+            "Matalampia rakennekustannuksia",
+            "Vähemmän väärinkäsityksiä"
+          ]
+        },
+        {
+          "title": "Full-stack + UX + tekoäly — integroituna",
+          "body": "Monet yritykset erottavat backendin, frontendin, UX:n ja tekoälyn eri tiimeihin. Me yhdistämme ne kaikki. Lopputulos: vähemmän koordinaatiokatkoksia ja yhtenäisempiä järjestelmiä.",
+          "bullets": [
+            "Ohjelmistokehitys",
+            "Käyttäjäkokemussuunnittelu",
+            "Tekoälyautomaatio",
+            "Pilviarkkitehtuuri"
+          ]
+        },
+        {
+          "title": "Tietoturva ja vaatimustenmukaisuus vakiona",
+          "body": "Suunnittelemme ja toteutamme järjestelmät aina turvallisuus edellä – erityisesti julkishallinnon ja säänneltyjen toimialojen tiukkoihin vaatimuksiin.",
+          "bullets": [
+            "GDPR-mukainen tietojenkäsittely",
+            "Turvalliset tunnistautumisratkaisut",
+            "Roolipohjainen käyttöoikeuksien hallinta",
+            "Pilvinatiivi, turvallinen käyttöönotto",
+            "Mahdollisuus yksityiseen tekoälyinfrastruktuuriin"
+          ]
+        },
+        {
+          "title": "Kotimainen kumppani ja sujuva yhteistyö",
+          "body": "Ymmärrämme syvällisesti suomalaisen yrityskentän, julkishallinnon tiukat vaatimukset sekä EU-tietosuojasääntelyn. Palvelemme joustavasti sekä suomeksi että englanniksi.",
+          "bullets": [
+            "Julkishallinnon vaatimukset ja korkea tietoturvaosaaminen",
+            "Suomalaisen yrityskulttuurin ymmärrys",
+            "Täysi tuki suomeksi ja englanniksi"
+          ]
+        }
+      ]
+    },
+    "clients": {
+      "eyebrow": "// kenen kanssa työskentelemme",
+      "items": [
+        {
+          "title": "Pienet ja keskisuuret yritykset",
+          "bullets": [
+            "Yritykset, jotka uudistavat sisäisiä prosessejaan",
+            "Yritykset, jotka korvaavat vanhoja järjestelmiä",
+            "Organisaatiot, jotka integroivat tekoälyä työnkulkuihinsa",
+            "Tiimit, jotka rakentavat operatiivisia liiketoimintasovelluksia"
+          ]
+        },
+        {
+          "title": "Julkishallinnon organisaatiot",
+          "bullets": [
+            "Kunnat",
+            "Valtion virastot",
+            "Toiminnallisten järjestelmien uudistamishankkeet",
+            "Turvalliset sisäiset työkalut ja datavetoiset järjestelmät"
+          ]
+        },
+        {
+          "title": "Projektipohjainen yhteistyö",
+          "bullets": [
+            "Tiimit, jotka tarvitsevat senioritason full-stack-osaamista",
+            "Tekoälyn integrointiprojektit",
+            "MVP:t ja pilottikehitys",
+            "Lyhyet ja keskipitkät konsultointitoimeksiannot"
+          ]
+        }
+      ],
+      "rolesHeading": "Voimme toimia:",
+      "roles": [
+        "Kokonaisvaltaisena toteutuskumppanina (vastaamme projektista ideasta maaliin saakka)",
+        "Uusien hankkeiden teknisenä vetäjänä",
+        "Digitaalisten palveluiden uudistamiskumppanina",
+        "Senioritason asiantuntijana osana suurempaa projektia"
+      ]
+    },
+    "process": {
+      "eyebrow": "// näin työskentelemme",
+      "heading": "Selkeä, jäsennelty prosessi ideasta toteutukseen.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Kartoitus ja vaatimusmäärittely",
+          "body": "Selvitämme tavoitteet, käyttäjät, rajoitteet ja tekniset realiteetit. Selkeä laajuus. Selkeät odotukset. Selkeä etenemissuunnitelma."
+        },
+        {
+          "number": "02",
+          "title": "Suunnittelu ja arkkitehtuuri",
+          "body": "Suunnittelemme sekä käyttäjäkokemuksen että järjestelmäarkkitehtuurin. Päätökset dokumentoidaan ja ovat läpinäkyviä."
+        },
+        {
+          "number": "03",
+          "title": "Kehitys ja testaus",
+          "body": "Rakennamme siistillä, ylläpidettävällä koodilla ja modernein käytännöin. Tietoturva, suorituskyky ja skaalautuvuus huomioidaan alusta asti."
+        },
+        {
+          "number": "04",
+          "title": "Käyttöönotto ja tuki",
+          "body": "Huolellinen dokumentaatio, hallittu luovutus ja sujuva siirtymä tuotantoon. Kumppanisi matkassa myös julkaisun jälkeen."
+        }
+      ]
+    },
+    "guarantees": {
+      "eyebrow": "// jokainen asiakas saa",
+      "heading": "Jokainen toimeksianto sisältää:",
+      "items": [
+        "Jäsennellyn teknisen yleiskatsauksen",
+        "Läpinäkyvät päätökset ja selkeän arkkitehtuurin",
+        "Siistiä, ylläpidettävää koodia",
+        "Versionhallinnan ja CI/CD-valmiuden",
+        "Tietoturvallisen toteutuksen",
+        "Skaalautuvuussuunnittelun",
+        "Suoran yhteydenpidon kehittäjän kanssa",
+        "Määritellyt virstanpylväät ja etenemisen näkyvyyden",
+        "Tekoälyautomaation mahdollisuuksien arvioinnin"
+      ]
+    },
+    "experience": {
+      "eyebrow": "// kokemus",
+      "heading": "Monialaista järjestelmäosaamista",
+      "body": "Suunnittelemme ja toteutamme vaativia full-stack- ja mobiiliratkaisuja useille eri toimialoille, aina yksityiseltä sektorilta julkishallintoon.",
+      "projectTypesLabel": "Projektityypit",
+      "projectTypesBody": "Verkkokauppa-alustat, SaaS-palvelut, julkishallinnon arkkitehtuurit, yrityksen sisäiset työkalut ja mobiilisovellukset.",
+      "approachLabel": "Lähestymistapa",
+      "approachBody": "Ketterät menetelmät, puhtaat koodauskäytännöt sekä tinkimätön käyttäjälähtöisyys."
+    },
+    "closingCta": {
+      "eyebrow": "// ota yhteyttä",
+      "heading": "Onko sinulla projekti mielessä?",
+      "body": "Rakennatpa uutta järjestelmää, uudistatpa vanhaa tai selvitätkö, miten tekoäly voisi tehostaa toimintaasi — keskustellaan tilanteestasi.",
+      "sub": "Et tarvitse valtavaa muutossuunnitelmaa. Tarvitset selkeän seuraavan askeleen.",
+      "cta": "Ota yhteyttä"
+    }
+  },
+  "DigitalDevelopment": {
+    "meta": {
+      "title": "Web-, mobiili- ja UI/UX-kehitys — BizVision",
+      "description": "Yhtenäiset verkkosovellukset, mobiilisovellukset ja käyttöliittymäsuunnittelu — rakennettu yhdeksi järjestelmäksi. Moderni teknologia, saavutettava ja skaalautuva."
+    },
+    "hero": {
+      "eyebrow": "// Digitaalinen kehitys",
+      "headline": "Yhtenäiset digitaaliset järjestelmät – modernia arkkitehtuuria ja sujuvaa käyttökokemusta.",
+      "body": "Verkko- ja mobiiliratkaisut sekä käyttöliittymäsuunnittelu hitsattuna yhteen suorituskykyiseksi, tietoturvalliseksi ja helposti laajennettavaksi kokonaisuudeksi.",
+      "ctaPrimary": "Ota yhteyttä",
+      "ctaSecondary": "Katso tekoälypalvelut",
+      "sub": "Full-stack-kehitys · Käyttäjälähtöinen suunnittelu · Pilvivalmis."
+    },
+    "whatWeBuild": {
+      "eyebrow": "// Mitä rakennamme",
+      "heading": "Kolme osaamisaluetta, yksi saumaton kokonaisuus.",
+      "quote": "Suunnittelu ja kehitys eivät ole erillisiä vaiheita. Ne rakennetaan yhdessä.",
+      "items": [
+        {
+          "icon": "Monitor",
+          "title": "Verkkosovellukset",
+          "bullets": [
+            "Räätälöidyt liiketoimintasovellukset ja web-ohjelmistot",
+            "Sisäiset hallintapaneelit ja toiminnanohjaustyökalut",
+            "Asiakasportaalit ja suojatut data-alustat"
+          ]
+        },
+        {
+          "icon": "Smartphone",
+          "title": "Mobiilisovellukset",
+          "bullets": [
+            "Modernit alustariippumattomat ja natiivit mobiilisovellukset",
+            "Taustajärjestelmiin integroidut mobiilityökalut liikkuvaan työhön",
+            "Sisäiset sovellukset työntekijöiden arjen tehostamiseen"
+          ]
+        },
+        {
+          "icon": "Palette",
+          "title": "UI/UX-suunnittelu",
+          "bullets": [
+            "Käyttäjälähtöiset, intuitiiviset ja sujuvat työnkulut",
+            "Saavutettavat, responsiiviset käyttöliittymät (WCAG)",
+            "Visuaaliset prototyypit ja skaalautuvat design-järjestelmät"
+          ]
+        }
+      ]
+    },
+    "howWeBuildIt": {
+      "eyebrow": "// Miten rakennamme",
+      "items": [
+        {
+          "title": "Tekoälyllä tehostettu kehitys",
+          "body": "Tekoälyavusteisia työnkulkuja nopeampaan iterointiin, tehokkaaseen testaukseen ja ajantasaiseen dokumentaatioon — arkkitehtuurista tinkimättä.",
+          "highlighted": true,
+          "linkLabel": "Lue lisää tekoälypalveluista",
+          "linkHref": "/ai-automation",
+          "imagePlaceholderLabel": "Tekoälyllä tehostettu kehitys — abstrakti visualisointi"
+        },
+        {
+          "title": "Siisti, skaalautuva arkkitehtuuri",
+          "body": "Tyyppiturvalliset teknologiat, modulaarinen rakenne, rajapintalähtöinen suunnittelu ja pilvivalmis alusta alkaen.",
+          "highlighted": false,
+          "imagePlaceholderLabel": "Puhtaan arkkitehtuurin kaavio tai abstrakti kuva"
+        },
+        {
+          "title": "Tietoturva ja vaatimustenmukaisuus vakiona",
+          "body": "GDPR-mukainen tietojenkäsittely, roolipohjaiset käyttöoikeudet ja turvallinen tunnistautuminen. Rakennettu julkishallinnon ja säänneltyjen ympäristöjen tarpeisiin.",
+          "highlighted": false,
+          "imagePlaceholderLabel": "Tietoturva ja vaatimustenmukaisuus -visualisointi"
+        }
+      ]
+    },
+    "whoItsFor": {
+      "eyebrow": "// Kenelle",
+      "audienceLabel": "Sopii",
+      "audience": "Toimintaansa uudistaville pk-yrityksille · julkishallinnon alustapäivityksiin · tiimeille, jotka tarvitsevat senioritason full-stack-vetoa · organisaatioille, jotka rakentavat turvallisia sisäisiä työkaluja.",
+      "projectsLabel": "Tyypilliset projektit",
+      "pills": [
+        "Excel-työnkulkujen korvaaminen",
+        "Operatiiviset liiketoimintasovellukset",
+        "Legacy-järjestelmien uudistaminen",
+        "Turvalliset kansalaisportaalit",
+        "MVP-alustat",
+        "Raportointi ja datavisualisointi",
+        "Verkkokauppa-alustat"
+      ]
+    },
+    "process": {
+      "eyebrow": "// Näin työskentelemme",
+      "heading": "Jäsennelty prosessi ensimmäisestä puhelusta lopulliseen toimitukseen.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Konsultaatio",
+          "body": "Laajuus ja tavoitteet — selkeät odotukset heti alusta."
+        },
+        {
+          "number": "02",
+          "title": "Arkkitehtuuriehdotus",
+          "body": "Tekninen arvio ja dokumentoitu suunnitelma."
+        },
+        {
+          "number": "03",
+          "title": "Vaiheistettu toteutus",
+          "body": "Jäsennelty ja läpinäkyvä eteneminen selkeillä virstanpylväillä."
+        },
+        {
+          "number": "04",
+          "title": "Käyttöönotto ja skaalaus",
+          "body": "Julkaisu pitkän aikavälin ylläpidettävyys huomioiden."
+        }
+      ],
+      "credibility": "Työskentelet suoraan senioritason kehittäjän kanssa — ei välikäsiä, ei toimistokerrosta."
+    },
+    "closingCta": {
+      "eyebrow": "// Seuraava askel",
+      "heading": "Rakenna järjestelmiä, jotka skaalautuvat.",
+      "body": "Suunnitteletko uutta alustaa vai uudistatko vanhaa? Keskustellaan arkkitehtuurista, skaalautuvuudesta ja siitä, mihin älykäs automaatio sopii.",
+      "cta": "Ota yhteyttä"
+    }
+  },
+  "AiAutomation": {
+    "meta": {
+      "title": "Tekoäly ja älykäs automaatio — BizVision",
+      "description": "Agenttipohjaisia työnkulkuja, tekoälyavustajia ja automaatiotyökaluja, rakennettu turvallisesti todelliseen liiketoimintakäyttöön. Käytännöllistä tekoälyä — ei hypeä."
+    },
+    "hero": {
+      "eyebrow": "// Tekoäly ja automaatio",
+      "headline": "Tekoälyjärjestelmiä ja agenttipohjaisia työnkulkuja, jotka vievät yrityksesi askeleen edelle.",
+      "body": "Käytännöllistä automaatiota upotettuna suoraan järjestelmiisi — suunniteltu tietoturva edellä, mitattuna todellisilla tuloksilla, ei hypellä.",
+      "ctaPrimary": "Keskustele tekoälyprojektista",
+      "ctaSecondary": "Katso käyttötapaukset",
+      "sub": "Agenttipohjaiset työnkulut · EU-tietoinen käyttöönotto · Senioritason vetämä."
+    },
+    "agentsExplainer": {
+      "eyebrow": "// Käsite",
+      "heading": "Mitä tekoälyagentit ovat?",
+      "bodyP1": "Tekoälyagentti on ohjelmisto, joka voi ottaa tavoitteen, pilkkoa sen vaiheisiin, käyttää työkaluja ja rajapintoja toimiakseen sekä tarkistaa oman työnsä — sen sijaan että se odottaisi ihmisen hyväksyntää jokaisessa välivaiheessa.",
+      "bodyP2": "Hyvin toteutettuna tämä tarkoittaa, että toistuvat, monivaiheiset tehtävät hoituvat luotettavasti taustalla. Huolimattomasti toteutettuna siitä tulee tietoturvariski. Ero syntyy puhtaasta arkkitehtuurista ja tarkkaan määritellyistä suojamekanismeista.",
+      "diagramLabel": "Tekoälyagentin silmukka: Syöte siirtyy Päättelyyn; Päättely suunnittelee ja päättää, sitten kutsuu Toimintaa työkalujen ja rajapintojen kautta; Toiminnan tulos siirtyy Tarkistukseen; Tarkistus palaa Päättelyyn kunnes tehtävä on valmis."
+    },
+    "businessValue": {
+      "eyebrow": "// Liiketoiminta-arvo",
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "Poista toistuva työ",
+          "body": "Automatisoi dokumenttien käsittely, manuaalinen tiedonsyöttö ja rutiiniraportointi."
+        },
+        {
+          "icon": "Code2",
+          "title": "Vapauta asiantuntijoiden aikaa",
+          "body": "Siirrä mekaaniset työvaiheet tekoälylle ja kohdista resurssit arvoa tuottavaan työhön."
+        },
+        {
+          "icon": "Search",
+          "title": "Parempi tiedon saatavuus",
+          "body": "Hae ja tiivistä tietoa hajallaan olevista sisäisistä lähteistä."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Päätöksenteon tuki",
+          "body": "Nosta esiin olennainen ja löydä poikkeamat suurista datajoukoista reaaliaikaisesti."
+        }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "// Käytännössä",
+      "items": [
+        {
+          "title": "Asiakirjojen ja sopimusten automaattinen esikäsittely",
+          "body": "Agentti käy läpi saapuvat dokumentit, vertaa niitä historiadataan, poimii avaintiedot ja valmistelee luonnoksen asiantujan tarkistettavaksi.",
+          "imagePlaceholderLabel": "Asiakirjojen käsittelyn automaatio — abstrakti visualisointi"
+        },
+        {
+          "title": "Älykäs sisäinen tietoassistentti",
+          "body": "Henkilöstö tai organisaation johto voi kysyä monimutkaisia kysymyksiä laajasta ohjeistus-, sopimus- tai hankintadatasta selkokielellä ilman manuaalista etsimistä.",
+          "imagePlaceholderLabel": "Tietoassistentin käyttöliittymä — abstrakti"
+        },
+        {
+          "title": "Tilausten ja tukipyyntöjen triagi",
+          "body": "Saapuva viestivirta luokitellaan automaattisesti, taustatiedot haetaan valmiiksi ydinjärjestelmästä ja asia reititetään oikealle asiantuntijalle sekunneissa.",
+          "imagePlaceholderLabel": "Operatiivisen triagen työnkulku — abstrakti"
+        }
+      ]
+    },
+    "secureDeployment": {
+      "eyebrow": "// Turvallisuus ja vaatimustenmukaisuus",
+      "heading": "Tekoälyä EU:n ja julkishallinnon tiukkoihin vaatimuksiin rakennettuna.",
+      "bullets": [
+        "GDPR-mukainen tietojenkäsittely ja tarkat suojaprotokollat",
+        "Yksityiset tekoälyratkaisut (Private AI) — data isännöidään omassa pilvessä tai infrastruktuurissa",
+        "Ihminen silmukassa (human-in-the-loop) kriittisissä päätöksissä ja toiminnoissa",
+        "Auditoitava ja läpinäkyvä toiminta jokaisesta työvaiheesta"
+      ]
+    },
+    "process": {
+      "eyebrow": "// Näin työskentelemme",
+      "heading": "Harkittu lähestymistapa tekoälyn käyttöönottoon.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Arviointi",
+          "body": "Etsitään organisaatiostasi suurin liiketoimintahyöty ja pienimmän riskin lähtökohta."
+        },
+        {
+          "number": "02",
+          "title": "Pilotointi",
+          "body": "Rakennetaan nopeasti rajattu, mitattava kokeilu todellisella datalla."
+        },
+        {
+          "number": "03",
+          "title": "Integrointi",
+          "body": "Liitetään testattu ratkaisu turvallisesti osaksi olemassa olevia ydinjärjestelmiäsi."
+        },
+        {
+          "number": "04",
+          "title": "Laajennus",
+          "body": "Monistetaan toimivaksi osoitetut ratkaisut muihin työnkulkuihin arvon varmistamiseksi."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Seuraava askel",
+      "heading": "Ota digitaalinen etumatka tekoälyn avulla.",
+      "body": "Etkö ole varma, mihin tekoäly tai automaatio sopisi parhaiten organisaatiossasi? Tunnistetaan yhdessä yksi käytännöllinen ja turvallinen käyttötapaus, josta on helppo aloittaa.",
+      "cta": "Keskustele tekoälyprojektista"
+    }
+  },
+  "Consulting": {
+    "meta": {
+      "title": "Tekninen konsultointi ja arkkitehtuuri — BizVision",
+      "description": "Senioritason teknistä harkintaa tiimeille, jotka tarvitsevat suuntaa. Arkkitehtuurikatselmuksia, teknistä strategiaa ja teknistä johtamista — Helsinki."
+    },
+    "hero": {
+      "eyebrow": "// Konsultointi ja arkkitehtuuri",
+      "headline": "Osta strategista näkemystä, älä pelkkiä käsipareja.",
+      "body": "Arkkitehtuurikatselmointia, teknistä strategiaa ja senioritason johtamista — organisaatioille ja tiimeille, jotka tarvitsevat selkeän suunnan ennen toteutusta tai sen rinnalla.",
+      "ctaPrimary": "Varaa konsultaatio",
+      "ctaSecondary": "Katso kehityspalvelut",
+      "sub": "Arkkitehtuuri · Pilvi- ja tekoälystrategia · Tekninen johtaminen."
+    },
+    "whereIHelp": {
+      "eyebrow": "// Neuvontapalvelut",
+      "items": [
+        {
+          "icon": "ScanSearch",
+          "title": "Arkkitehtuurikatselmointi ja tekninen due diligence",
+          "body": "Arvioimme olemassa olevan järjestelmän, ehdotetun suunnitelman tai koodikannan ennen merkittävien budjettipäätösten lukitsemista."
+        },
+        {
+          "icon": "Cloud",
+          "title": "Pilvi- ja infrastruktuuristrategia",
+          "body": "Käytännöllisiä ja riippumattomia päätöksiä hostingista, toimintavarmuudesta ja kustannuksista, ilman sidonnaisuutta tiettyyn toimittajaan."
+        },
+        {
+          "icon": "BrainCircuit",
+          "title": "Tekoälyn käyttöönottostrategia ja tiekartta",
+          "body": "Määritämme realistisesti, mihin tekoäly organisaatiossasi sopii, mitä kannattaa pilotoida ensin ja mitkä hankkeet on syytä jättää väliin."
+        },
+        {
+          "icon": "Users",
+          "title": "Osa-aikainen / väliaikainen tekninen johtaminen",
+          "body": "Tuomme senioritason suuntaa, tukea ja teknistä johtajuutta tiimille tai projektille määräajaksi."
+        },
+        {
+          "icon": "FileText",
+          "title": "Hankinta- ja tarjoustuki",
+          "body": "Tarjoamme vahvaa teknistä asiantuntijuutta ja kriteeristön laadintaa julkishallinnon tarjouskilpailuihin ja hankintaprosesseihin."
+        }
+      ]
+    },
+    "comparison": {
+      "eyebrow": "// Milloin kannattaa ottaa yhteyttä",
+      "leftHeading": "Ota yhteyttä neuvonantoa varten kun",
+      "leftBody": "Tarvitset strategista suuntaa, riippumattoman asiantuntijan toisen mielipiteen tai selkeän tiekartan — ja haluat minimoida tekniset riskit ennen investointipäätöksiä.",
+      "rightHeading": "Ota yhteyttä toteutusta varten kun",
+      "rightBody": "Suunta ja vaatimukset ovat jo selvät, ja hanke vaatii laadukasta teknistä toteutusta. Katso Digitaalinen kehitys ja Tekoäly ja automaatio.",
+      "note": "Moni toimeksianto alkaa strategisella neuvonnalla ja jatkuu luontevasti toteutukseen. Kumpikaan vaihe ei sido sinua jatkoon."
+    },
+    "publicSector": {
+      "eyebrow": "// Hankintakelpoinen",
+      "heading": "Rakennettu vastaamaan suomalaisen julkishallinnon tiukkoja hankintakäytäntöjä.",
+      "bullets": [
+        "Nimetty senioritason asiantuntijaresurssi käytettävissä suoraan tarjouskilpailuissa",
+        "Riippumaton neuvonanto ja arkkitehtuuri tarjottuna omana, toteutuksesta erillisenä palvelukategoriana",
+        "Natiivisti GDPR- ja EU-tietoinen suunnittelu, saavutettavuustietoinen (WCAG)",
+        "Selkeä, auditoitava dokumentaatio ja konkreettiset välitavoitteet jokaisessa toimeksiannossa"
+      ]
+    },
+    "process": {
+      "eyebrow": "// Näin työskentelemme",
+      "heading": "Kohdistettu toimeksianto ensimmäisestä puhelusta dokumentoituihin havaintoihin.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Aloituspuhelu",
+          "body": "Kartoitamme, mitä teknistä tai strategista päätöstä olet tekemässä ja mikä on aikataulusi."
+        },
+        {
+          "number": "02",
+          "title": "Kohdistettu toimeksianto",
+          "body": "Käynnistämme rajatun arkkitehtuurikatselmuksen, tiekartan laadinnan tai väliaikaisen teknisen johtamisen jakson."
+        },
+        {
+          "number": "03",
+          "title": "Dokumentoidut havainnot",
+          "body": "Toimitamme selkeät, puolueettomat suositukset ja suunnan, joita voit hyödyntää päätöksenteoteossa tai luovuttaa eteenpäin."
+        },
+        {
+          "number": "04",
+          "title": "Jatko tarpeen mukaan",
+          "body": "Siirrymme valinnan mukaan joko järjestelmän toteutusvaiheeseen tai jatkamme säännöllistä arkkitehtuuritukea."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Seuraava askel",
+      "heading": "Tarvitsetko senioritason riippumattoman näkemyksen?",
+      "body": "Suunnitteletko uutta järjestelmäkokonaisuutta, arvioitko tekoälyn hyötyjä tai ohjaatko kriittistä hanketta, joka kaipaa selkeää teknistä suuntaa? Keskustellaan tilanteestasi.",
+      "cta": "Varaa konsultaatio"
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "BizVision — Senioritason ohjelmistokumppani",
+      "description": "BizVision on senioritason ohjelmistokumppani: keskustelet suoraan asiantuntijan kanssa, joka suunnittelee, rakentaa ja toimittaa järjestelmäsi. Helsingistä käsin."
+    },
+    "hero": {
+      "eyebrow": "// Meistä",
+      "headline": "Senioritason osaamista, yksi vastuullinen kumppani.",
+      "body": "BizVision on ketterä ja asiantuntijavetoinen ohjelmistokumppani. Suunnittelusta, arkkitehtuurista ja toteutuksesta vastaavat aina kokeneet senioritason osaajat, mikä takaa suoran viestinnän ja tehokkaan toimituksen ilman välikäsiä.",
+      "ctaPrimary": "Ota yhteyttä"
+    },
+    "background": {
+      "eyebrow": "// Kokemus",
+      "p1": "Tarjoamme monipuolista ja vahvaa senioritason full-stack-, frontend- ja mobiilijärjestelmien kehitysosaamista Helsingistä käsin. Tämän päivän painopisteenämme ovat erityisesti tekoälyllä tehostetut kehitysmenetelmät sekä älykkäät, agenttipohjaiset työnkulut.",
+      "p2": "BizVision on perustettu tuomaan pk-yrityksille ja julkishallinnon organisaatioille huipputason tekninen toteutus ilman perinteisten IT-talojen raskaita yleiskuluja. Meillä ei ole tehottomia asiakkuuspäälliköitä, ylimääräisiä välikäsiä tai projekteissasi opettelevia junioreita.",
+      "p3": "Kun hanke vaatii oman ydinosaamisemme ulkopuolista erikoisasiantuntemusta, tuomme projektiin mukaan luotetut ammattilaiset vakiintuneesta verkostostamme. Säilytämme kuitenkin aina kokonaisvastuun toimituksesta ja laadusta. Saat yhden selkeän kumppanin, joka kantaa vastuun, ja parhaat asiantuntijat juuri silloin, kun työ sitä vaatii.",
+      "credibilityText": "Senioritason osaajia, Helsingistä käsin. Laaja-alaista osaamista webistä, mobiilista ja tekoälystä. Suora kumppani ensimmäisestä puhelusta viimeiseen toimitukseen."
+    },
+    "philosophy": {
+      "eyebrow": "// Kehitysfilosofia",
+      "items": [
+        {
+          "icon": "Layers",
+          "title": "Arkkitehtuuri edellä",
+          "body": "Puhdas rakenne ja oikeat teknologiavalinnat ennen ensimmäistäkään koodiriviä."
+        },
+        {
+          "icon": "Code2",
+          "title": "Suorituskykyistä ja ylläpidettävää",
+          "body": "Tyyppiturvallista, modulaarista ja huolellisesti dokumentoitua koodia. Järjestelmämme rakennetaan kestämään aikaa ja laajentumista."
+        },
+        {
+          "icon": "BrainCircuit",
+          "title": "Tekoälyllä tehostettua, ihmisen johtamaa",
+          "body": "Hyödynnämme modernia tekoälyä kehitystyön nopeuttamiseen, mutta senioritason arkkitehtuuriharkinta ja laadunvarmistus ohjaavat jokaista ratkaisua."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Suoraa ja läpinäkyvää",
+          "body": "Selkeät virstanpylväät, rehelliset aikataulut ja avoin viestintä ilman välikäsiä."
+        }
+      ]
+    },
+    "workingModel": {
+      "eyebrow": "// Toimintamalli",
+      "audienceLabel": "Näin työskentelemme yhdessä",
+      "audience": "Toimimme etäpainotteisesti Helsingistä käsin ja olemme joustavasti tavattavissa pääkaupunkiseudulla. Työskentelemme joko projektipohjaisesti tai tuntiveloituksella. Toimimme sujuvasti sekä itsenäisenä kokonaisvastuullisena kumppanina että osana organisaatiosi omaa kehitystiimiä — mukautuen tarpeisiisi ilman turhia organisaatiokerroksia.",
+      "projectsLabel": "Toimeksiantomuodot",
+      "pills": [
+        "Etäpainotteinen",
+        "Projektipohjainen",
+        "Tuntiveloitus",
+        "Paikan päällä (pääkaupunkiseutu)",
+        "Yksin tai asiantuntijoiden kanssa"
+      ]
+    },
+    "contact": {
+      "eyebrow": "// Ota yhteyttä",
+      "whoHeading": "Kenen kannattaa ottaa yhteyttä",
+      "whoBody": "Yritykset ja organisaatiot, jotka haluavat uudistaa toimintaansa, suunnittelevat uutta digitaalista alustaa, selvittävät tekoälyn ja automaation tuomia hyötyjä tai tarvitsevat senioritason riippumattoman näkemyksen hankkeelleen.",
+      "prepHeading": "Mitä kannattaa valmistella",
+      "prepBody": "Lyhyt kuvaus nykytilanteestasi, siitä mitä tavoittelet sekä mahdollisesta aikataulusta. Karkeakin hahmotelma riittää — tarkempi suunta ja selkeys luodaan yhdessä ensimmäisessä keskustelussamme.",
+      "emailLabel": "Suora yhteystieto",
+      "email": "info@bizvision.fi",
+      "ctaLabel": "Ota yhteyttä"
+    },
+    "contactForm": {
+      "labelName": "Nimi",
+      "labelEmail": "Sähköposti",
+      "labelMessage": "Viesti",
+      "placeholderName": "Nimesi",
+      "placeholderEmail": "sinä@esimerkki.fi",
+      "placeholderMessage": "Kerro, missä vaiheessa olet, mitä tavoittelet sekä mahdolliset rajoitteet tai aikataulun. Karkeakin kuvaus riittää.",
+      "submit": "Lähetä viesti",
+      "sending": "Lähetetään…",
+      "successHeading": "Viesti lähetetty",
+      "successBody": "Kiitos — palaan asiaan yhden arkipäivän kuluessa.",
+      "errorRequired": "Tämä kenttä on pakollinen.",
+      "errorEmail": "Anna kelvollinen sähköpostiosoite.",
+      "errorMessageTooLong": "Viestin tulee olla alle 5 000 merkkiä.",
+      "errorRateLimit": "Liian monta viestiä lähetetty. Yritä myöhemmin uudelleen tai lähetä sähköpostia suoraan osoitteeseen info@bizvision.fi.",
+      "errorGeneric": "Jokin meni pieleen. Yritä uudelleen tai lähetä sähköpostia suoraan osoitteeseen info@bizvision.fi.",
+      "gdpr": "Viestiäsi käytetään vain yhteydenottoosi vastaamiseen. Ei seurantaa, ei tallennusta sähköpostin lisäksi."
+    },
+    "process": {
+      "eyebrow": "// Näin työskentelemme",
+      "heading": "Näin toimeksianto käynnistyy.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Ensimmäinen keskustelu",
+          "body": "Yhteisen tavoitteen, tarpeiden ja sopivuuden ymmärtäminen."
+        },
+        {
+          "number": "02",
+          "title": "Laajuus ja tarjous",
+          "body": "Selkeä etenemissuunnitelma, aikataulu ja kustannusten määrittely."
+        },
+        {
+          "number": "03",
+          "title": "Toteutus tai neuvonanto",
+          "body": "Jäsennelty, läpinäkyvä ja laadukas tekninen toimitus."
+        },
+        {
+          "number": "04",
+          "title": "Luovutus tai jatkuva tuki",
+          "body": "Järjestelmän siisti luovutus, jatkuva ylläpito tai säännöllinen arkkitehtuurituki."
+        }
+      ]
+    },
+    "closingCta": {
+      "eyebrow": "// Seuraava askel",
+      "heading": "Keskustellaan siitä, miten otat digitaalisen etumatkan.",
+      "body": "Luotettava senioritason kumppani alusta loppuun. Kerro meille, missä vaiheessa hankkeesi on nyt — palaamme asiaan selkeällä ja käytännöllisellä etenemispolulla.",
+      "cta": "Ota yhteyttä"
+    }
+  },
+  "ChatBot": {
+    "triggerLabel": "Kysy jotain",
+    "title": "BizVision-avustaja",
+    "eyebrow": "// kysy mitä vain",
+    "placeholder": "Kysy palveluistamme…",
+    "send": "Lähetä viesti",
+    "close": "Sulje chat",
+    "thinking": "Mietitään…",
+    "welcomeMessage": "Hei — olen BizVisionin avustaja. Kysy palveluistamme, työskentelytavoistamme tai siitä, sopisimmeko projektiisi.",
+    "errorMessage": "Jokin meni pieleen. Yritä uudelleen tai lähetä sähköpostia suoraan osoitteeseen info@bizvision.fi."
+  }
+}

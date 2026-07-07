@@ -13,14 +13,11 @@ export default async function ExperienceSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16 mb-12">
           <div className="flex flex-col gap-2">
-            <p
-              className="font-display font-bold text-ink"
-              style={{ fontSize: "clamp(3rem, 6vw, 4.5rem)" }}
-            >
-              <span>{t("stat")}</span>
+            <p className="font-display font-semibold text-ink text-lg leading-snug mb-1">
+              {t("heading")}
             </p>
-            <p className="text-sm font-medium text-taupe uppercase tracking-wide">
-              {t("statLabel")}
+            <p className="text-base text-taupe leading-relaxed">
+              {t("body")}
             </p>
           </div>
 

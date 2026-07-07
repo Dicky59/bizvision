@@ -25,13 +25,13 @@ export default async function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="/about#contact"
-            className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
+            className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
           >
             {t("ctaPrimary")}
           </Link>
           <a
             href="#services"
-            className="inline-flex items-center justify-center h-12 px-6 rounded border border-hero-text/30 text-hero-text font-medium text-base transition-colors hover:bg-hero-text/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
+            className="inline-flex items-center justify-center h-12 px-6 rounded border border-hero-text/30 text-hero-text font-medium text-base transition-colors hover:bg-hero-text/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
           >
             {t("ctaSecondary")}
           </a>

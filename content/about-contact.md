@@ -11,7 +11,6 @@
 - Type: Schibsted Grotesk display · Inter/Hanken body · JetBrains Mono eyebrows/labels.
 - SIGNATURE: mono ochre eyebrows. Numbered markers (01/02…) ONLY on the "how engagement
   starts" sequence.
-- Keep the experience figure consistent with the homepage Experience section (7+ years).
 - Contact is info-first (email + CTA), not a form. A form would add backend + spam +
   GDPR-consent scope — note as optional/deferred, don't build it here.
 -->
@@ -19,6 +18,7 @@
 ---
 
 ## 1. Hero
+
 <!-- LAYOUT: full-bleed on --hero-bg (espresso). Paper text. Can run leaner than other heroes. -->
 <!-- IMAGE: optional — the headshot lives in §2 CredibilityBlock, so hero can be text-only. -->
 <!-- EYEBROW (mono, ochre): "About BizVision" -->
@@ -33,10 +33,11 @@ designs, builds, and ships your system.
 ---
 
 ## 2. Background
+
 <!-- LAYOUT: text + CredibilityBlock (reuse). Headshot left/right + 2-3 short paragraphs. -->
 <!-- EYEBROW (mono, ochre): "Experience" -->
 
-A senior freelance software engineer based in Helsinki, with 7+ years across
+We are senior software engineers based in Helsinki area, with long experience across
 frontend, mobile, and full-stack development — and a current focus on
 AI-accelerated engineering and agentic workflows.
 
@@ -45,7 +46,7 @@ without agency overhead: no account managers, no handoffs, no junior developers
 learning on your project.
 
 When a project needs specialist skills — design, SEO, or a specific technology —
-I bring in trusted people from an established network, while staying your single
+we bring in trusted people from an established network, while staying your single
 point of accountability. One partner who stays responsible; the right people when
 the work calls for them.
 
@@ -53,7 +54,8 @@ the work calls for them.
 
 ---
 
-## 3. How I Work
+## 3. How We Work
+
 <!-- LAYOUT: IconGrid or simple list (reuse IconGrid from AI page). 4 items, icon + bold + one line. -->
 <!-- EYEBROW (mono, ochre): "Engineering philosophy" -->
 
@@ -70,6 +72,7 @@ the loop.
 ---
 
 ## 4. Working Model
+
 <!-- LAYOUT: short two-column or inline pills (reuse BadgePillCloud if it reads well). Light. -->
 <!-- EYEBROW (mono, ochre): "Engagement model" -->
 
@@ -81,6 +84,7 @@ scope calls for it, without adding agency layers.
 ---
 
 ## 5. Contact
+
 <!-- LAYOUT: this is the Contact half of the page. Two columns:
      LEFT = "who should reach out" + "what to prepare". RIGHT = direct email + primary CTA.
      Keep it practical and warm. -->
@@ -95,7 +99,7 @@ A short description of where you are now, what you're trying to achieve, and any
 timeline or constraints. Rough is fine — clarity comes from the first conversation.
 
 **Direct contact**
-`hello@bizvision.fi` *(placeholder — confirm address)*
+`info@bizvision.fi`
 
 `[ Start a Conversation ]`
 
@@ -105,23 +109,25 @@ timeline or constraints. Rough is fine — clarity comes from the first conversa
 ---
 
 ## 6. How Engagement Starts
+
 <!-- LAYOUT: NumberedStepper (shared component). 01-04 mono ochre. -->
 <!-- EYEBROW (mono, ochre): "How we work" -->
 
-01. **First conversation** — understand the goal and fit.
-02. **Scope & proposal** — clear plan, timeline, and cost.
-03. **Build or advise** — structured, transparent delivery.
-04. **Ongoing or handoff** — support, retainer, or a clean handover.
+1.  **First conversation** — understand the goal and fit.
+2.  **Scope & proposal** — clear plan, timeline, and cost.
+3.  **Build or advise** — structured, transparent delivery.
+4.  **Ongoing or handoff** — support, retainer, or a clean handover.
 
 ---
 
 ## 7. Final CTA
+
 <!-- LAYOUT: DarkCtaBand (shared). Espresso bg, single ochre button, centered. -->
 <!-- EYEBROW (mono, ochre): "Next step" -->
 
 **Let's talk about what you're building.**
 
-One senior partner, start to finish. Tell me where you are — I'll come back with a
+One senior partner, start to finish. Tell us where you are — We'll come back with a
 clear path.
 
 `[ Start a Conversation ]`

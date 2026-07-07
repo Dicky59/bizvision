@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import HeroSection from "@/components/ai-automation/HeroSection";
 import AgentsExplainerSection from "@/components/ai-automation/AgentsExplainerSection";
 import BusinessValueSection from "@/components/ai-automation/BusinessValueSection";
@@ -7,26 +8,33 @@ import SecureDeploymentSection from "@/components/ai-automation/SecureDeployment
 import ProcessSection from "@/components/ai-automation/ProcessSection";
 import CtaSection from "@/components/ai-automation/CtaSection";
 
-export function generateMetadata(): Metadata {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+const PATH = "/ai-automation";
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "AiAutomation.meta" });
+  const title = t("title");
+  const description = t("description");
+  const canonical = locale === "en" ? PATH : `/fi${PATH}`;
+
   return {
-    title: "AI & Intelligent Automation — BizVision",
-    description:
-      "Agentic workflows, AI assistants, and automation tools built securely for real business use. Practical AI that ships — no hype.",
+    title,
+    description,
     alternates: {
-      canonical: "/ai-automation",
-      languages: { en: "/ai-automation" },
+      canonical,
+      languages: { en: PATH, fi: `/fi${PATH}`, "x-default": PATH },
     },
     openGraph: {
-      title: "AI & Intelligent Automation — BizVision",
-      description:
-        "Agentic workflows, AI assistants, and automation tools built securely for real business use. Practical AI that ships — no hype.",
-      url: "/ai-automation",
+      title,
+      description,
+      url: canonical,
+      locale: locale === "fi" ? "fi_FI" : "en_GB",
     },
-    twitter: {
-      title: "AI & Intelligent Automation — BizVision",
-      description:
-        "Agentic workflows, AI assistants, and automation tools built securely for real business use. Practical AI that ships — no hype.",
-    },
+    twitter: { title, description },
   };
 }
 

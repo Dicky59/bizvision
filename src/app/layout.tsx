@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "BizVision",
     locale: "en_GB",
+    alternateLocale: "fi_FI",
     type: "website",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "BizVision" }],
   },

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import HashLink from "@/components/shared/HashLink";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 interface NavItem {
   href: string;
@@ -84,7 +85,11 @@ export default function MobileMenu({
               {item.label}
             </HashLink>
           ))}
-          <div className="pt-6">
+          <div className="pt-6 flex items-center justify-between gap-4">
+            <LocaleSwitcher />
+          </div>
+
+          <div className="pt-4">
             <HashLink
               href="/about#contact"
               onClick={() => setOpen(false)}

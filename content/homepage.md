@@ -24,7 +24,6 @@ Data lives in too many places.
 Manual steps creep into everyday work.
 Legacy systems feel risky but impossible to replace.
 
-
 ---
 
 ## What We Do
@@ -57,11 +56,12 @@ Clear, accessible, and practical interface design focused on usability — not d
 
 AI solutions that automate real work — securely and responsibly.
 
-* Internal AI automation agents
-* AI-powered document processing
-* Intelligent reporting and data summarisation
-* Workflow automation with LLM integration
-* Secure AI deployments (cloud or private infrastructure)
+- Internal AI automation agents
+- AI-powered document processing
+- Intelligent reporting and data summarisation
+- Workflow automation with LLM integration
+- Secure AI deployments (cloud or private infrastructure)
+
 ---
 
 ## Why BizVision
@@ -73,10 +73,10 @@ No account managers. No unnecessary layers. No junior hand-offs.
 
 This means:
 
-* Clear and fast communication
-* Practical technical decisions
-* Lower structural cost
-* Fewer misunderstandings
+- Clear and fast communication
+- Practical technical decisions
+- Lower structural cost
+- Fewer misunderstandings
 
 ---
 
@@ -86,10 +86,10 @@ Many companies separate backend, frontend, UX, and AI into different teams.
 
 We combine:
 
-* Engineering
-* User experience design
-* AI automation
-* Cloud architecture
+- Engineering
+- User experience design
+- AI automation
+- Cloud architecture
 
 The result: fewer coordination gaps and more coherent systems.
 
@@ -99,11 +99,11 @@ The result: fewer coordination gaps and more coherent systems.
 
 Especially for public sector and regulated environments, we design systems with:
 
-* GDPR-conscious data handling
-* Secure authentication practices
-* Role-based access control
-* Cloud-native, secure deployment
-* Option for private AI infrastructure
+- GDPR-conscious data handling
+- Secure authentication practices
+- Role-based access control
+- Cloud-native, secure deployment
+- Option for private AI infrastructure
 
 ---
 
@@ -111,10 +111,10 @@ Especially for public sector and regulated environments, we design systems with:
 
 We understand:
 
-* Finnish business culture
-* Public sector requirements
-* EU data regulations
-* Security expectations in government projects
+- Finnish business culture
+- Public sector requirements
+- EU data regulations
+- Security expectations in government projects
 
 We operate in both Finnish and English environments.
 
@@ -124,35 +124,35 @@ We operate in both Finnish and English environments.
 
 ### Small and Medium-Sized Businesses
 
-* Companies modernising internal processes
-* Businesses replacing legacy systems
-* Organisations integrating AI into workflows
-* Teams building operational dashboards
+- Companies modernising internal processes
+- Businesses replacing legacy systems
+- Organisations integrating AI into workflows
+- Teams building operational dashboards
 
 ---
 
 ### Public Sector Organisations
 
-* Municipalities
-* Government agencies
-* Operational system modernisation initiatives
-* Secure internal tools and data-driven systems
+- Municipalities
+- Government agencies
+- Operational system modernisation initiatives
+- Secure internal tools and data-driven systems
 
 ---
 
 ### Project-Based Collaborations
 
-* Teams needing senior full-stack expertise
-* AI integration projects
-* MVP and pilot development
-* Short- to mid-term consultancy engagements
+- Teams needing senior full-stack expertise
+- AI integration projects
+- MVP and pilot development
+- Short- to mid-term consultancy engagements
 
 We can act as:
 
-* End-to-end delivery partner
-* Technical lead for new initiatives
-* Modernisation partner
-* Senior freelance consultant within larger projects
+- End-to-end delivery partner
+- Technical lead for new initiatives
+- Modernisation partner
+- Senior freelance consultant within larger projects
 
 ---
 
@@ -192,23 +192,23 @@ Ongoing support available if needed.
 
 Every engagement includes:
 
-* Structured technical overview
-* Transparent decisions and architecture clarity
-* Clean, maintainable code
-* Version control and CI/CD readiness
-* Security-conscious implementation
-* Scalability planning
-* Direct communication with the developer
-* Defined milestones and progress visibility
-* Evaluation of AI automation opportunities
+- Structured technical overview
+- Transparent decisions and architecture clarity
+- Clean, maintainable code
+- Version control and CI/CD readiness
+- Security-conscious implementation
+- Scalability planning
+- Direct communication with the developer
+- Defined milestones and progress visibility
+- Evaluation of AI automation opportunities
 
 ---
 
-## Experience
+## Experience & Expertise
 
-### 7+ Years in Development
+### Multidisciplinary Systems Expertise
 
-Full-stack and mobile development across multiple industries.
+We design and implement demanding full-stack and mobile solutions across a wide range of industries, from the private sector to public administration.
 
 ### Project Types
 

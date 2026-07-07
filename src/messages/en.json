@@ -26,6 +26,10 @@
     "copyright": "© {year} BizVision"
   },
   "HomePage": {
+    "meta": {
+      "title": "BizVision — Software Development Helsinki",
+      "description": "AI and automation systems for your business processes, plus web, mobile, and software development for Finnish businesses and public sector."
+    },
     "hero": {
       "eyebrow": "// software development",
       "headline": "Web, mobile, and AI-powered systems — built for clarity and long-term use",
@@ -202,8 +206,8 @@
     },
     "experience": {
       "eyebrow": "// experience",
-      "stat": "7+",
-      "statLabel": "Years in Development",
+      "heading": "Multidisciplinary Systems Expertise",
+      "body": "We design and implement demanding full-stack and mobile solutions across a wide range of industries, from the private sector to public administration.",
       "projectTypesLabel": "Project Types",
       "projectTypesBody": "E-commerce platforms, SaaS applications, public sector systems, operational dashboards, and mobile apps.",
       "approachLabel": "Approach",
@@ -218,6 +222,10 @@
     }
   },
   "DigitalDevelopment": {
+    "meta": {
+      "title": "Web, Mobile & UI/UX Development — BizVision",
+      "description": "Integrated web applications, mobile apps, and interface design — built as one system. Modern stack, accessible, and ready to scale."
+    },
     "hero": {
       "eyebrow": "// Digital Development",
       "headline": "Integrated digital systems, built to scale.",
@@ -334,6 +342,10 @@
     }
   },
   "AiAutomation": {
+    "meta": {
+      "title": "AI & Intelligent Automation — BizVision",
+      "description": "Agentic workflows, AI assistants, and automation tools built securely for real business use. Practical AI that ships — no hype."
+    },
     "hero": {
       "eyebrow": "// AI & Automation",
       "headline": "AI systems and agentic workflows that do real work.",
@@ -438,6 +450,10 @@
     }
   },
   "Consulting": {
+    "meta": {
+      "title": "Technical Consulting & Architecture — BizVision",
+      "description": "Senior technical judgment for teams that need direction. Architecture reviews, technical strategy, and engineering leadership — Helsinki."
+    },
     "hero": {
       "eyebrow": "// Consulting & Architecture",
       "headline": "Buy the judgment, not just the hands.",
@@ -528,18 +544,22 @@
     }
   },
   "About": {
+    "meta": {
+      "title": "About BizVision — Senior Engineering Partner",
+      "description": "BizVision is an agile, senior-led software partner. Your systems are designed, built, and shipped exclusively by experienced senior experts."
+    },
     "hero": {
       "eyebrow": "// About BizVision",
       "headline": "Senior engineering, one accountable partner.",
-      "body": "BizVision is a one-person consultancy: the person you talk to is the person who designs, builds, and ships your system.",
+      "body": "BizVision is an agile, senior-led software partner. Your systems are designed, built, and shipped exclusively by experienced senior experts, ensuring direct collaboration and efficient delivery without the traditional agency overhead.",
       "ctaPrimary": "Start a Conversation"
     },
     "background": {
       "eyebrow": "// Experience",
-      "p1": "A senior freelance software engineer based in Helsinki, with 7+ years across frontend, mobile, and full-stack development — and a current focus on AI-accelerated engineering and agentic workflows.",
+      "p1": "We are senior software engineers based in the Helsinki area, with long experience across frontend, mobile, and full-stack development — and a current focus on AI-accelerated engineering and agentic workflows.",
       "p2": "BizVision exists to give SMEs and public-sector teams senior-level execution without agency overhead: no account managers, no handoffs, no junior developers learning on your project.",
-      "p3": "When a project needs specialist skills — design, SEO, or a specific technology — I bring in trusted people from an established network, while staying your single point of accountability. One partner who stays responsible; the right people when the work calls for them.",
-      "credibilityText": "Senior engineer, Helsinki-based. 7+ years across web, mobile, and AI. Direct partner from first call to final delivery."
+      "p3": "When a project needs specialist skills — design, SEO, or a specific technology — we bring in trusted people from an established network, while staying your single point of accountability. One partner who stays responsible; the right people when the work calls for them.",
+      "credibilityText": "Senior engineers, Helsinki-based. Deep experience across web, mobile, and AI. Direct partner from first call to final delivery."
     },
     "philosophy": {
       "eyebrow": "// Engineering philosophy",
@@ -637,7 +657,7 @@
     "closingCta": {
       "eyebrow": "// Next step",
       "heading": "Let's talk about what you're building.",
-      "body": "One senior partner, start to finish. Tell me where you are — I'll come back with a clear path.",
+      "body": "One senior partner, start to finish. Tell us where you are — we'll come back with a clear path.",
       "cta": "Start a Conversation"
     }
   },
