@@ -27,14 +27,14 @@
   },
   "HomePage": {
     "meta": {
-      "title": "BizVision — Ohjelmistokehitystä Helsingissä",
-      "description": "Tekoäly- ja automaatiojärjestelmiä liiketoimintaprosesseihin, sekä web-, mobiili- ja ohjelmistokehitystä suomalaisille yrityksille ja julkishallinnolle."
+      "title": "BizVision — Tekoälyjärjestelmät ja agenttityönkulut | Helsinki",
+      "description": "BizVision auttaa yrityksiä ja julkisen sektorin organisaatioita ottamaan käyttöön tekoälyä ja agenttipohjaisia työnkulkuja, sekä niitä tukevaa web-, mobiili- ja ohjelmistokehitystä."
     },
     "hero": {
-      "eyebrow": "// ohjelmistokehitys",
-      "headline": "Web-, mobiili- ja tekoälyjärjestelmät. Modernia teknologiaa, joka vie yrityksesi askeleen edelle.",
-      "subhead": "BizVision on ohjelmistokumppani yrityksille ja julkishallinnolle, jotka haluavat uudistaa toimintaansa modernilla teknologialla. Rakennamme turvallisia ja ylläpidettäviä digitaalisia järjestelmiä, joissa tekoäly ja automaatio valjastetaan tehostamaan ydinprosessejasi.",
-      "body": "Olipa kyseessä verkko- ja mobiilisovellus, tekoälyagentti tai sisäinen työkalu – toteutamme ohjelmistot aina organisaatiosi todellisten tarpeiden pohjalta.",
+      "eyebrow": "// tekoäly ja automaatio",
+      "headline": "Tekoälyjärjestelmät ja älykkäät työnkulut — modernia teknologiaa, joka vie yrityksesi askeleen edelle",
+      "subhead": "BizVision on tekoälykumppani, joka auttaa yrityksiä ja julkishallintoa suunnittelemaan ja rakentamaan käytännöllisiä tekoälyjärjestelmiä ja agenttityönkulkuja — tukenaan niiden toteuttamiseen tarvittava web-, mobiili- ja ohjelmistokehitys.",
+      "body": "Tekoälyagenteista ja sisäisistä automaatiotyökaluista niitä ympäröiviin verkko- ja mobiilisovelluksiin — toteutamme järjestelmät aina organisaatiosi todellisten tarpeiden pohjalta.",
       "ctaPrimary": "Ota yhteyttä",
       "ctaSecondary": "Tutustu palveluihin"
     },
@@ -50,9 +50,20 @@
     },
     "services": {
       "eyebrow": "// mitä teemme",
-      "heading": "Ohjelmistokehitystä alusta loppuun, tekoäly mukana alusta asti",
-      "subhead": "Suunnittelemme ja rakennamme turvallisia, toimintavarmoja ja moderneja digitaalisia järjestelmiä. Yhdistämme senioritason koodausosaamisen, käyttäjälähtöisen suunnittelun ja tekoälyllä tehostetut työtavat.",
+      "heading": "Tekoälyjärjestelmät ja agenttityönkulut, tukenaan vahva ohjelmistokehitys",
+      "subhead": "Suunnittelemme ja rakennamme käytännöllistä tekoälyautomaatiota. Yhdistämme senioritason koodausosaamisen, käyttäjälähtöisen suunnittelun ja turvallisen käyttöönoton alusta asti.",
       "items": [
+        {
+          "title": "Tekoälyagentit ja älykkäät työnkulut",
+          "body": "Tekoälyratkaisuja, jotka automatisoivat rutiinit ja vapauttavat aikaa asiantuntijatyölle — turvallisesti ja vastuullisesti.",
+          "bullets": [
+            "Räätälöidyt tekoälyagentit sisäisten prosessien ja asiakaspalvelun tehostamiseen",
+            "Älykäs dokumenttien käsittely: automaattinen tiedon haku, analysointi ja luokittelu",
+            "Datan tiivistäminen ja raportointi reaaliaikaisesti",
+            "LLM-integraatioihin perustuva työnkulkujen automatisointi",
+            "Turvalliset tekoälyratkaisut (pilvi- tai yksityinen infrastruktuuri)"
+          ]
+        },
         {
           "title": "Verkkosovellukset & Taustajärjestelmät",
           "body": "Moderneja verkkosovelluksia, liiketoimintasovelluksia ja taustajärjestelmiä, jotka rakennetaan puhtaalla arkkitehtuurilla."
@@ -64,23 +75,22 @@
         {
           "title": "UI/UX-suunnittelu",
           "body": "Selkeää, saavutettavaa ja käytännöllistä käyttöliittymäsuunnittelua. Meille design on työkalu, ei pelkkä koristus."
-        },
-        {
-          "title": "Tekoälyagentit ja älykkäät työnkulut",
-          "body": "Tekoälyratkaisuja, jotka automatisoivat rutiinit ja vapauttavat aikaa asiantuntijatyölle — turvallisesti ja vastuullisesti.",
-          "bullets": [
-            "Räätälöidyt tekoälyagentit sisäisten prosessien ja asiakaspalvelun tehostamiseen",
-            "Älykäs documentation käsittely: automaattinen tiedon haku, analysointi ja luokittelu",
-            "Datan tiivistäminen ja raportointi reaaliaikaisesti",
-            "LLM-integraatioihin perustuva työnkulkujen automatisointi",
-            "Turvalliset tekoälyratkaisut (pilvi- tai yksityinen infrastruktuuri)"
-          ]
         }
       ]
     },
     "why": {
       "eyebrow": "// miksi bizvision",
       "items": [
+        {
+          "title": "Tekoälyosaaminen integroituna ohjelmistokehitykseen",
+          "body": "Monet yritykset erottavat backendin, frontendin, UX:n ja tekoälyn eri tiimeihin. Me yhdistämme tekoälyautomaation, ohjelmistokehityksen, käyttäjäkokemussuunnittelun ja pilviarkkitehtuurin. Lopputulos: vähemmän koordinaatiokatkoksia ja yhtenäisempiä järjestelmiä.",
+          "bullets": [
+            "Tekoälyautomaatio",
+            "Ohjelmistokehitys",
+            "Käyttäjäkokemussuunnittelu",
+            "Pilviarkkitehtuuri"
+          ]
+        },
         {
           "title": "Senioritason osaamista — ilman toimiston yleiskuluja",
           "body": "Työskentelet suoraan kokeneen kehittäjän kanssa. Ei asiakkuuspäälliköitä. Ei ylimääräisiä kerroksia. Ei junioreita opettelemassa projektissasi.",
@@ -92,18 +102,8 @@
           ]
         },
         {
-          "title": "Full-stack + UX + tekoäly — integroituna",
-          "body": "Monet yritykset erottavat backendin, frontendin, UX:n ja tekoälyn eri tiimeihin. Me yhdistämme ne kaikki. Lopputulos: vähemmän koordinaatiokatkoksia ja yhtenäisempiä järjestelmiä.",
-          "bullets": [
-            "Ohjelmistokehitys",
-            "Käyttäjäkokemussuunnittelu",
-            "Tekoälyautomaatio",
-            "Pilviarkkitehtuuri"
-          ]
-        },
-        {
           "title": "Tietoturva ja vaatimustenmukaisuus vakiona",
-          "body": "Suunnittelemme ja toteutamme järjestelmät aina turvallisuus edellä – erityisesti julkishallinnon ja säänneltyjen toimialojen tiukkoihin vaatimuksiin.",
+          "body": "Suunnittelemme ja toteutamme järjestelmät aina turvallisuus edellä — erityisesti julkishallinnon ja säänneltyjen toimialojen tiukkoihin vaatimuksiin.",
           "bullets": [
             "GDPR-mukainen tietojenkäsittely",
             "Turvalliset tunnistautumisratkaisut",
@@ -227,7 +227,7 @@
     },
     "hero": {
       "eyebrow": "// Digitaalinen kehitys",
-      "headline": "Yhtenäiset digitaaliset järjestelmät – modernia arkkitehtuuria ja sujuvaa käyttökokemusta.",
+      "headline": "Yhtenäiset digitaaliset järjestelmät — modernia arkkitehtuuria ja sujuvaa käyttökokemusta.",
       "body": "Verkko- ja mobiiliratkaisut sekä käyttöliittymäsuunnittelu hitsattuna yhteen suorituskykyiseksi, tietoturvalliseksi ja helposti laajennettavaksi kokonaisuudeksi.",
       "ctaPrimary": "Ota yhteyttä",
       "ctaSecondary": "Katso tekoälypalvelut",

@@ -1,8 +1,9 @@
 "use client";
 
-import Link, { type LinkProps } from "next/link";
-import { usePathname } from "next/navigation";
-import type { AnchorHTMLAttributes, MouseEvent } from "react";
+import { Link, usePathname } from "@/i18n/navigation";
+import type { ComponentProps, AnchorHTMLAttributes, MouseEvent } from "react";
+
+type LinkProps = ComponentProps<typeof Link>;
 
 type Props = Omit<LinkProps, "href"> &
   Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & { href: string };

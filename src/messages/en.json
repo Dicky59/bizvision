@@ -27,14 +27,14 @@
   },
   "HomePage": {
     "meta": {
-      "title": "BizVision — Software Development Helsinki",
-      "description": "AI and automation systems for your business processes, plus web, mobile, and software development for Finnish businesses and public sector."
+      "title": "BizVision — AI Systems & Agentic Workflows | Helsinki",
+      "description": "BizVision helps Finnish businesses and public sector organisations implement practical AI systems and agentic workflows, plus the web, mobile, and software development to support them."
     },
     "hero": {
-      "eyebrow": "// software development",
-      "headline": "Web, mobile, and AI-powered systems — built for clarity and long-term use",
-      "subhead": "BizVision is a software development partner helping businesses and public sector organisations design and build secure, maintainable digital systems — including AI and automation that streamlines their core processes.",
-      "body": "From modern web applications and mobile apps to AI agents and internal automation tools, we build software that actually supports how your organisation works — today and as it grows.",
+      "eyebrow": "// ai systems & automation",
+      "headline": "AI systems and agentic workflows — built for clarity and long-term use",
+      "subhead": "BizVision is an AI implementation partner helping businesses and public sector organisations design and build practical AI systems and agentic workflows — backed by the web, mobile, and software development needed to make them work.",
+      "body": "From AI agents and internal automation tools to the web and mobile applications that surround them, we build systems that actually support how your organisation works — today and as it grows.",
       "ctaPrimary": "Discuss your project",
       "ctaSecondary": "Explore our services"
     },
@@ -50,9 +50,20 @@
     },
     "services": {
       "eyebrow": "// what we do",
-      "heading": "End-to-end software development with AI built in from day one",
-      "subhead": "We design and build secure, scalable digital systems — combining senior engineering, user-centered design, and AI-enhanced workflows.",
+      "heading": "AI systems and agentic workflows, backed by full-stack engineering",
+      "subhead": "We design and build practical AI automation — combining senior engineering, user-centered design, and secure deployment from day one.",
       "items": [
+        {
+          "title": "AI Agents & Intelligent Workflows",
+          "body": "AI solutions that automate real work — securely and responsibly.",
+          "bullets": [
+            "Internal AI automation agents",
+            "AI-powered document processing",
+            "Intelligent reporting and data summarisation",
+            "Workflow automation with LLM integration",
+            "Secure AI deployments (cloud or private infrastructure)"
+          ]
+        },
         {
           "title": "Web Development",
           "body": "Modern web applications, dashboards, admin tools, and backend systems built with clean architecture and long-term maintainability in mind."
@@ -64,23 +75,22 @@
         {
           "title": "UI/UX Design",
           "body": "Clear, accessible, and practical interface design focused on usability — not decoration."
-        },
-        {
-          "title": "AI Agents & Intelligent Workflows",
-          "body": "AI solutions that automate real work — securely and responsibly.",
-          "bullets": [
-            "Internal AI automation agents",
-            "AI-powered document processing",
-            "Intelligent reporting and data summarisation",
-            "Workflow automation with LLM integration",
-            "Secure AI deployments (cloud or private infrastructure)"
-          ]
         }
       ]
     },
     "why": {
       "eyebrow": "// why bizvision",
       "items": [
+        {
+          "title": "AI expertise, integrated with full-stack engineering",
+          "body": "Many companies separate backend, frontend, UX, and AI into different teams. We combine AI automation, engineering, user experience design, and cloud architecture. The result: fewer coordination gaps and more coherent systems.",
+          "bullets": [
+            "AI automation",
+            "Engineering",
+            "User experience design",
+            "Cloud architecture"
+          ]
+        },
         {
           "title": "Senior-level expertise — without agency overhead",
           "body": "You work directly with experienced developers. No account managers. No unnecessary layers. No junior hand-offs.",
@@ -89,16 +99,6 @@
             "Practical technical decisions",
             "Lower structural cost",
             "Fewer misunderstandings"
-          ]
-        },
-        {
-          "title": "Full-stack + UX + AI — integrated",
-          "body": "Many companies separate backend, frontend, UX, and AI into different teams. We combine engineering, user experience design, AI automation, and cloud architecture. The result: fewer coordination gaps and more coherent systems.",
-          "bullets": [
-            "Engineering",
-            "User experience design",
-            "AI automation",
-            "Cloud architecture"
           ]
         },
         {

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 import {
-  Schibsted_Grotesk,
   Hanken_Grotesk,
   JetBrains_Mono,
+  Schibsted_Grotesk,
 } from "next/font/google";
-import { getLocale } from "next-intl/server";
 import "./globals.css";
 
 const schibsted = Schibsted_Grotesk({
@@ -27,7 +27,7 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bizvision.fi"),
-  title: "BizVision — Software Development Helsinki",
+  title: "BizVision - AI Systems & Agentic Workflows | Helsinki",
   description:
     "AI and automation systems for your business processes, plus web, mobile, and UI/UX development — for businesses and public sector organisations.",
   openGraph: {
