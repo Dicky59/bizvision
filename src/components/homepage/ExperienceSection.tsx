@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import Placeholder from "@/components/ui/Placeholder";
+import ProjectPortfolio from "@/components/homepage/ProjectPortfolio";
 
 export default async function ExperienceSection() {
   const t = await getTranslations("HomePage.experience");
@@ -40,10 +40,12 @@ export default async function ExperienceSection() {
           </div>
         </div>
 
-        <Placeholder
-          label="Project Portfolio"
-          dimensions="1600×900"
-          ratio="16/9"
+        <ProjectPortfolio
+          screenshots={{
+            left: { src: "/portfolio/dashboard.png", alt: "SaaS dashboard project" },
+            center: { src: "/portfolio/ai-coding-agent.png", alt: "AI coding agent dashboard" },
+            right: { src: "/portfolio/mobile.png", alt: "Mobile app project" },
+          }}
         />
       </div>
     </section>
