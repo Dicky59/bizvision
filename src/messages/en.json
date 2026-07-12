@@ -55,13 +55,13 @@
       "items": [
         {
           "title": "AI Agents & Intelligent Workflows",
-          "body": "AI solutions that automate real work — securely and responsibly.",
+          "body": "AI agents that take routine work off your team's plate — hours saved every week, not just a technology demo.",
           "bullets": [
-            "Internal AI automation agents",
-            "AI-powered document processing",
-            "Intelligent reporting and data summarisation",
-            "Workflow automation with LLM integration",
-            "Secure AI deployments (cloud or private infrastructure)"
+            "Automation agents that turn a day of manual report prep into under an hour",
+            "AI-powered document processing that replaces manual data entry, cutting handling time by 60–80%",
+            "Same-day automated reporting instead of a week of manual spreadsheet work",
+            "LLM-integrated workflows that remove repetitive steps from existing tools without a system rebuild",
+            "Secure AI deployments (cloud or private infrastructure), so adoption doesn't mean a compliance trade-off"
           ]
         },
         {
@@ -83,7 +83,7 @@
       "items": [
         {
           "title": "AI expertise, integrated with full-stack engineering",
-          "body": "Many companies separate backend, frontend, UX, and AI into different teams. We combine AI automation, engineering, user experience design, and cloud architecture. The result: fewer coordination gaps and more coherent systems.",
+          "body": "Many companies split backend, frontend, UX, and AI across separate teams and vendors — adding handoff time and cost to every change. One person here covers AI automation, engineering, UX, and cloud architecture, so a workflow change ships in one pass instead of a chain of tickets across three teams.",
           "bullets": [
             "AI automation",
             "Engineering",
@@ -97,7 +97,7 @@
           "bullets": [
             "Clear and fast communication",
             "Practical technical decisions",
-            "Lower structural cost",
+            "No account-manager markup — you pay for engineering time, not overhead layers",
             "Fewer misunderstandings"
           ]
         },
@@ -211,7 +211,10 @@
       "projectTypesLabel": "Project Types",
       "projectTypesBody": "E-commerce platforms, SaaS applications, public sector systems, operational dashboards, and mobile apps.",
       "approachLabel": "Approach",
-      "approachBody": "Agile methodology, clean code practices, user-centered design implementation."
+      "approachBody": "Agile methodology, clean code practices, user-centered design implementation.",
+      "featuredProjectLabel": "Featured project",
+      "featuredProjectTitle": "AI Coding Agent — automated code review",
+      "featuredProjectBody": "An open-source multi-agent code review system built with Claude, LangGraph, and MCP. It reviews pull requests, flags issues, and drafts documentation directly in CI/CD — cutting review turnaround from days to hours before a human ever opens the PR. Deployed on Vercel with a Next.js/TypeScript dashboard."
     },
     "closingCta": {
       "eyebrow": "// get in touch",
@@ -229,7 +232,7 @@
     "hero": {
       "eyebrow": "// Digital Development",
       "headline": "Integrated digital systems, built to scale.",
-      "body": "Web, mobile, and interface — engineered together as one system, on clean architecture and secure foundations.",
+      "body": "Web, mobile, and interface — engineered together as one system, so a UI change doesn't get stuck waiting on three separate teams to catch up.",
       "ctaPrimary": "Discuss Your Project",
       "ctaSecondary": "View AI Services",
       "sub": "Full-stack engineering · UX-driven design · Cloud-ready."
@@ -273,7 +276,7 @@
       "items": [
         {
           "title": "AI-Accelerated Engineering",
-          "body": "AI-assisted workflows for faster iteration, stronger testing, and live documentation — without compromising architecture.",
+          "body": "AI-assisted workflows that shorten typical feature turnaround and keep test coverage and docs current automatically — without compromising architecture.",
           "highlighted": true,
           "linkLabel": "Learn more about AI services",
           "linkHref": "/ai-automation",
@@ -349,7 +352,7 @@
     "hero": {
       "eyebrow": "// AI & Automation",
       "headline": "AI systems and agentic workflows that do real work.",
-      "body": "Practical automation built into your systems — designed for security, measured by outcomes, not hype.",
+      "body": "Automation that earns its keep in hours saved, not slide decks — designed for security first, judged by what it actually takes off your team's plate.",
       "ctaPrimary": "Discuss an AI Project",
       "ctaSecondary": "See Use Cases",
       "sub": "Agentic workflows · EU-aware deployment · Senior-led."
@@ -551,7 +554,7 @@
     "hero": {
       "eyebrow": "// About BizVision",
       "headline": "Senior engineering, one accountable partner.",
-      "body": "BizVision is an agile, senior-led software partner. Your systems are designed, built, and shipped exclusively by experienced senior experts, ensuring direct collaboration and efficient delivery without the traditional agency overhead.",
+      "body": "BizVision is an agile, senior-led software partner. Your systems are designed, built, and shipped exclusively by experienced senior experts — so decisions get made on the same call they're raised in, not routed through an account manager first.",
       "ctaPrimary": "Start a Conversation"
     },
     "background": {
@@ -561,7 +564,7 @@
       "p1": "We are senior software engineers based in the Helsinki area, with long experience across frontend, mobile, and full-stack development — and a current focus on AI-accelerated engineering and agentic workflows.",
       "p2": "BizVision exists to give SMEs and public-sector teams senior-level execution without agency overhead: no account managers, no handoffs, no junior developers learning on your project.",
       "p3": "When a project needs specialist skills — design, SEO, or a specific technology — we bring in trusted people from an established network, while staying your single point of accountability. One partner who stays responsible; the right people when the work calls for them.",
-      "credibilityText": "Senior engineers, Helsinki-based. Deep experience across web, mobile, and AI. Direct partner from first call to final delivery."
+      "credibilityText": "Senior engineers, Helsinki-based. Shipped web, mobile, and AI-agent systems — including an open-source multi-agent code review tool running in real CI/CD pipelines. Direct partner from first call to final delivery."
     },
     "philosophy": {
       "eyebrow": "// Engineering philosophy",

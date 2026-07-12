@@ -55,13 +55,13 @@
       "items": [
         {
           "title": "Tekoälyagentit ja älykkäät työnkulut",
-          "body": "Tekoälyratkaisuja, jotka automatisoivat rutiinit ja vapauttavat aikaa asiantuntijatyölle — turvallisesti ja vastuullisesti.",
+          "body": "Tekoälyagentteja, jotka vapauttavat tiimisi rutiinitöistä — tunteja säästyy joka viikko, ja tulokset näkyvät suoraan viivan alla.",
           "bullets": [
-            "Räätälöidyt tekoälyagentit sisäisten prosessien ja asiakaspalvelun tehostamiseen",
-            "Älykäs dokumenttien käsittely: automaattinen tiedon haku, analysointi ja luokittelu",
-            "Datan tiivistäminen ja raportointi reaaliaikaisesti",
-            "LLM-integraatioihin perustuva työnkulkujen automatisointi",
-            "Turvalliset tekoälyratkaisut (pilvi- tai yksityinen infrastruktuuri)"
+            "Automaatioagentit, jotka lyhentävät päivän raportin kasaamisen alle tuntiin",
+            "Tekoälyavusteinen dokumenttien käsittely, joka vähentää manuaalista syöttötyötä 60–80 %",
+            "Saman päivän automaattiraportit viikon manuaalisen taulukkotyön sijaan",
+            "LLM-integroidut työnkulut, jotka poistavat toistuvat vaiheet nykyisistä työkaluista ilman koko järjestelmän uusimista",
+            "Turvalliset tekoälyratkaisut (pilvi- tai yksityinen infrastruktuuri), jotta käyttöönotto ei tarkoita tinkimistä tietoturvasta"
           ]
         },
         {
@@ -83,7 +83,7 @@
       "items": [
         {
           "title": "Tekoälyosaaminen integroituna ohjelmistokehitykseen",
-          "body": "Monet yritykset erottavat backendin, frontendin, UX:n ja tekoälyn eri tiimeihin. Me yhdistämme tekoälyautomaation, ohjelmistokehityksen, käyttäjäkokemussuunnittelun ja pilviarkkitehtuurin. Lopputulos: vähemmän koordinaatiokatkoksia ja yhtenäisempiä järjestelmiä.",
+          "body": "Kun backend, frontend, UX ja tekoäly hajautetaan eri tiimeille ja alihankkijoille, jokainen muutos vaatii lisäkierroksia, aikaa ja rahaa. Bizvisionilla saat kaiken yhdeltä asiantuntijalta: tekoälyautomaation, ohjelmistokehityksen, UX-suunnittelun ja pilviarkkitehtuurin. Muutokset toteutetaan heti yhdellä kierroksella – ilman viikkojen odottelua kolmen eri tiimin tikettijonoissa.",
           "bullets": [
             "Tekoälyautomaatio",
             "Ohjelmistokehitys",
@@ -97,7 +97,7 @@
           "bullets": [
             "Selkeää ja nopeaa viestintää",
             "Käytännöllisiä teknisiä päätöksiä",
-            "Matalampia rakennekustannuksia",
+            "Ei asiakkuuspäällikön lisämarginaalia — maksat kehitystyöstä, et ylimääräisistä organisaatiokerroksista",
             "Vähemmän väärinkäsityksiä"
           ]
         },
@@ -210,7 +210,10 @@
       "projectTypesLabel": "Projektityypit",
       "projectTypesBody": "Verkkokauppa-alustat, SaaS-palvelut, julkishallinnon arkkitehtuurit, yrityksen sisäiset työkalut ja mobiilisovellukset.",
       "approachLabel": "Lähestymistapa",
-      "approachBody": "Ketterät menetelmät, puhtaat koodauskäytännöt sekä tinkimätön käyttäjälähtöisyys."
+      "approachBody": "Ketterät menetelmät, puhtaat koodauskäytännöt sekä tinkimätön käyttäjälähtöisyys.",
+      "featuredProjectLabel": "Nostoprojekti",
+      "featuredProjectTitle": "AI Coding Agent — automatisoitu koodikatselmointi",
+      "featuredProjectBody": "Avoimen lähdekoodin monen agentin koodikatselmointijärjestelmä, rakennettu Claudella, LangGraphilla ja MCP:llä. Se katselmoi pull requestit, nostaa esiin ongelmat ja luonnostelee dokumentaation suoraan CI/CD-putkessa — lyhentäen katselmoinnin läpimenoajan päivistä tunteihin ennen kuin kukaan ehtii avata PR:ää käsin. Julkaistu Vercelissä Next.js/TypeScript-hallintapaneelilla."
     },
     "closingCta": {
       "eyebrow": "// ota yhteyttä",
@@ -228,7 +231,7 @@
     "hero": {
       "eyebrow": "// Digitaalinen kehitys",
       "headline": "Yhtenäiset digitaaliset järjestelmät — modernia arkkitehtuuria ja sujuvaa käyttökokemusta.",
-      "body": "Verkko- ja mobiiliratkaisut sekä käyttöliittymäsuunnittelu hitsattuna yhteen suorituskykyiseksi, tietoturvalliseksi ja helposti laajennettavaksi kokonaisuudeksi.",
+      "body": "Verkko-, mobiili- ja käyttöliittymätyö tehdään yhtenä kokonaisuutena, jotta yksi käyttöliittymämuutos ei jää odottamaan kolmea eri tiimiä.",
       "ctaPrimary": "Ota yhteyttä",
       "ctaSecondary": "Katso tekoälypalvelut",
       "sub": "Full-stack-kehitys · Käyttäjälähtöinen suunnittelu · Pilvivalmis."
@@ -272,7 +275,7 @@
       "items": [
         {
           "title": "Tekoälyllä tehostettu kehitys",
-          "body": "Tekoälyavusteisia työnkulkuja nopeampaan iterointiin, tehokkaaseen testaukseen ja ajantasaiseen dokumentaatioon — arkkitehtuurista tinkimättä.",
+          "body": "Tekoälyavusteisia työnkulkuja, jotka nopeuttavat kehitystä tinkimättä koodin laadusta tai arkkitehtuurista. Testit ja dokumentaatio pysyvät automaattisesti ajan tasalla, joten ylläpito on jatkossakin helppoa.",
           "highlighted": true,
           "linkLabel": "Lue lisää tekoälypalveluista",
           "linkHref": "/ai-automation",
@@ -349,7 +352,7 @@
     "hero": {
       "eyebrow": "// Tekoäly ja automaatio",
       "headline": "Tekoälyjärjestelmiä ja agenttipohjaisia työnkulkuja, jotka vievät yrityksesi askeleen edelle.",
-      "body": "Käytännöllistä automaatiota upotettuna suoraan järjestelmiisi — suunniteltu tietoturva edellä, mitattuna todellisilla tuloksilla, ei hypellä.",
+      "body": "Automaatiota, joka maksaa itsensä takaisin säästettyinä tunteina, ei diaesityksinä — suunniteltu tietoturva edellä, arvioituna sen mukaan, mitä se oikeasti poistaa tiimisi tehtävälistalta.",
       "ctaPrimary": "Keskustele tekoälyprojektista",
       "ctaSecondary": "Katso käyttötapaukset",
       "sub": "Agenttipohjaiset työnkulut · EU-tietoinen käyttöönotto · Senioritason vetämä."
@@ -551,7 +554,7 @@
     "hero": {
       "eyebrow": "// Meistä",
       "headline": "Senioritason osaamista, yksi vastuullinen kumppani.",
-      "body": "BizVision on ketterä ja asiantuntijavetoinen ohjelmistokumppani. Suunnittelusta, arkkitehtuurista ja toteutuksesta vastaavat aina kokeneet senioritason osaajat, mikä takaa suoran viestinnän ja tehokkaan toimituksen ilman välikäsiä.",
+      "body": "BizVision on ketterä ja asiantuntijavetoinen ohjelmistokumppani. Suunnittelusta, arkkitehtuurista ja toteutuksesta vastaavat aina kokeneet senioritason osaajat, joten päätökset syntyvät samassa puhelussa. Puhut aina suoraan tekijän, et välikäden kanssa.",
       "ctaPrimary": "Ota yhteyttä"
     },
     "background": {
@@ -561,7 +564,7 @@
       "p1": "Tarjoamme monipuolista ja vahvaa senioritason full-stack-, frontend- ja mobiilijärjestelmien kehitysosaamista Helsingistä käsin. Tämän päivän painopisteenämme ovat erityisesti tekoälyllä tehostetut kehitysmenetelmät sekä älykkäät, agenttipohjaiset työnkulut.",
       "p2": "BizVision on perustettu tuomaan pk-yrityksille ja julkishallinnon organisaatioille huipputason tekninen toteutus ilman perinteisten IT-talojen raskaita yleiskuluja. Meillä ei ole tehottomia asiakkuuspäälliköitä, ylimääräisiä välikäsiä tai projekteissasi opettelevia junioreita.",
       "p3": "Kun hanke vaatii oman ydinosaamisemme ulkopuolista erikoisasiantuntemusta, tuomme projektiin mukaan luotetut ammattilaiset vakiintuneesta verkostostamme. Säilytämme kuitenkin aina kokonaisvastuun toimituksesta ja laadusta. Saat yhden selkeän kumppanin, joka kantaa vastuun, ja parhaat asiantuntijat juuri silloin, kun työ sitä vaatii.",
-      "credibilityText": "Senioritason osaajia, Helsingistä käsin. Laaja-alaista osaamista webistä, mobiilista ja tekoälystä. Suora kumppani ensimmäisestä puhelusta viimeiseen toimitukseen."
+      "credibilityText": "Senioritason osaamista Helsingistä käsin. Toteutamme vaativat web-, mobiili- ja tekoälyagenttijärjestelmät. Tästä osoituksena on muun muassa kehittämämme avoimen lähdekoodin monen agentin koodikatselmointityökalu, joka pyörii jo asiakkaiden CI/CD-putkissa. Suora kumppani ensimmäisestä puhelusta viimeiseen toimitukseen."
     },
     "philosophy": {
       "eyebrow": "// Kehitysfilosofia",

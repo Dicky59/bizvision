@@ -1,5 +1,8 @@
+"use client";
+
 import type { CSSProperties, ReactNode } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface ProjectPortfolioScreenshot {
   src: string;
@@ -246,86 +249,103 @@ function MobileAppMockup() {
  * fallback for that slot.
  */
 export default function ProjectPortfolio({ screenshots = {} }: ProjectPortfolioProps) {
+  const t = useTranslations("HomePage.experience");
+
   return (
-    <div
-      style={{
-        width: "100%",
-        aspectRatio: "16 / 9",
-        background: "var(--color-paper)",
-        borderRadius: 16,
-        border: "1px solid rgba(35,28,23,0.08)",
-        position: "relative",
-        overflow: "hidden",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      {/* ambient glow */}
+    <div>
       <div
-        aria-hidden="true"
         style={{
-          position: "absolute",
-          width: "45%",
-          height: "70%",
-          background: "var(--color-ochre)",
-          opacity: 0.14,
-          filter: "blur(90px)",
-          borderRadius: "50%",
+          width: "100%",
+          aspectRatio: "16 / 9",
+          background: "var(--color-paper)",
+          borderRadius: 16,
+          border: "1px solid rgba(35,28,23,0.08)",
+          position: "relative",
+          overflow: "hidden",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
-      />
+      >
+        {/* ambient glow */}
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            width: "45%",
+            height: "70%",
+            background: "var(--color-ochre)",
+            opacity: 0.14,
+            filter: "blur(90px)",
+            borderRadius: "50%",
+          }}
+        />
 
-      <div className="relative flex items-center justify-center w-[92%] h-[85%] sm:w-[82%] sm:h-[72%]">
-        {/* left: SaaS / dashboard — hidden below sm, collage returns at sm+ */}
-        <BrowserFrame
-          className="hidden sm:block absolute left-[2%] w-[44%] h-[78%] z-[1]"
-          style={{ transform: "rotate(-3deg)" }}
-        >
-          {screenshots.left ? (
-            <Image
-              src={screenshots.left.src}
-              alt={screenshots.left.alt}
-              fill
-              className="object-cover"
-              sizes="(min-width: 640px) 32vw, 0px"
-            />
-          ) : (
-            <SaasDashboardMockup />
-          )}
-        </BrowserFrame>
+        <div className="relative flex items-center justify-center w-[92%] h-[85%] sm:w-[82%] sm:h-[72%]">
+          {/* left: SaaS / dashboard — hidden below sm, collage returns at sm+ */}
+          <BrowserFrame
+            className="hidden sm:block absolute left-[2%] w-[44%] h-[78%] z-[1]"
+            style={{ transform: "rotate(-3deg)" }}
+          >
+            {screenshots.left ? (
+              <Image
+                src={screenshots.left.src}
+                alt={screenshots.left.alt}
+                fill
+                className="object-cover"
+                sizes="(min-width: 640px) 32vw, 0px"
+              />
+            ) : (
+              <SaasDashboardMockup />
+            )}
+          </BrowserFrame>
 
-        {/* center: AI Coding Agent — hero piece, always visible */}
-        <BrowserFrame className="relative w-full h-full sm:w-[56%] sm:h-[94%] z-[3]">
-          {screenshots.center ? (
-            <Image
-              src={screenshots.center.src}
-              alt={screenshots.center.alt}
-              fill
-              className="object-cover"
-              sizes="(min-width: 640px) 42vw, 80vw"
-            />
-          ) : (
-            <AgentDashboardMockup />
-          )}
-        </BrowserFrame>
+          {/* center: AI Coding Agent — hero piece, always visible */}
+          <BrowserFrame className="relative w-full h-full sm:w-[56%] sm:h-[94%] z-[3]">
+            {screenshots.center ? (
+              <Image
+                src={screenshots.center.src}
+                alt={screenshots.center.alt}
+                fill
+                className="object-cover"
+                sizes="(min-width: 640px) 42vw, 80vw"
+              />
+            ) : (
+              <AgentDashboardMockup />
+            )}
+          </BrowserFrame>
 
-        {/* right: mobile app — hidden below sm */}
-        <PhoneFrame
-          className="hidden sm:block absolute right-[1%] w-[20%] h-[88%] z-[2]"
-          style={{ transform: "rotate(4deg)" }}
-        >
-          {screenshots.right ? (
-            <Image
-              src={screenshots.right.src}
-              alt={screenshots.right.alt}
-              fill
-              className="object-cover"
-              sizes="(min-width: 640px) 14vw, 0px"
-            />
-          ) : (
-            <MobileAppMockup />
-          )}
-        </PhoneFrame>
+          {/* right: mobile app — hidden below sm */}
+          <PhoneFrame
+            className="hidden sm:block absolute right-[1%] w-[20%] h-[88%] z-[2]"
+            style={{ transform: "rotate(4deg)" }}
+          >
+            {screenshots.right ? (
+              <Image
+                src={screenshots.right.src}
+                alt={screenshots.right.alt}
+                fill
+                className="object-cover"
+                sizes="(min-width: 640px) 14vw, 0px"
+              />
+            ) : (
+              <MobileAppMockup />
+            )}
+          </PhoneFrame>
+        </div>
+      </div>
+
+      {/* caption: featured project mini case-study, below the collage */}
+      <div className="mt-6 sm:mt-8 max-w-xl">
+        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-ochre-deep mb-2">
+          {t("featuredProjectLabel")}
+        </p>
+        <p className="font-display font-semibold text-ink text-lg leading-snug mb-2">
+          {t("featuredProjectTitle")}
+        </p>
+        <p className="text-base text-taupe leading-relaxed">
+          {t("featuredProjectBody")}
+        </p>
       </div>
     </div>
   );
