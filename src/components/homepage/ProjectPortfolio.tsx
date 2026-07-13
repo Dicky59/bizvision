@@ -284,7 +284,7 @@ export default function ProjectPortfolio({ screenshots = {} }: ProjectPortfolioP
         <div className="relative flex items-center justify-center w-[92%] h-[85%] sm:w-[82%] sm:h-[72%]">
           {/* left: SaaS / dashboard — hidden below sm, collage returns at sm+ */}
           <BrowserFrame
-            className="hidden sm:block absolute left-[2%] w-[44%] h-[78%] z-[1]"
+            className="hidden sm:block absolute left-[2%] w-[44%] h-[78%] z-1"
             style={{ transform: "rotate(-3deg)" }}
           >
             {screenshots.left ? (
@@ -301,7 +301,7 @@ export default function ProjectPortfolio({ screenshots = {} }: ProjectPortfolioP
           </BrowserFrame>
 
           {/* center: AI Coding Agent — hero piece, always visible */}
-          <BrowserFrame className="relative w-full h-full sm:w-[56%] sm:h-[94%] z-[3]">
+          <BrowserFrame className="relative w-full h-full sm:w-[56%] sm:h-[94%] z-3">
             {screenshots.center ? (
               <Image
                 src={screenshots.center.src}
@@ -317,7 +317,7 @@ export default function ProjectPortfolio({ screenshots = {} }: ProjectPortfolioP
 
           {/* right: mobile app — hidden below sm */}
           <PhoneFrame
-            className="hidden sm:block absolute right-[1%] w-[20%] h-[88%] z-[2]"
+            className="hidden sm:block absolute right-[1%] w-[20%] h-[88%] z-2"
             style={{ transform: "rotate(4deg)" }}
           >
             {screenshots.right ? (

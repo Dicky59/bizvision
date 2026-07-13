@@ -33,8 +33,8 @@
     "hero": {
       "eyebrow": "// tekoäly ja automaatio",
       "headline": "Tekoälyjärjestelmät ja älykkäät työnkulut — modernia teknologiaa, joka vie yrityksesi askeleen edelle",
-      "subhead": "BizVision on tekoälykumppani, joka auttaa yrityksiä ja julkishallintoa suunnittelemaan ja rakentamaan käytännöllisiä tekoälyjärjestelmiä ja agenttityönkulkuja — tukenaan niiden toteuttamiseen tarvittava web-, mobiili- ja ohjelmistokehitys.",
-      "body": "Tekoälyagenteista ja sisäisistä automaatiotyökaluista niitä ympäröiviin verkko- ja mobiilisovelluksiin — toteutamme järjestelmät aina organisaatiosi todellisten tarpeiden pohjalta.",
+      "subhead": "BizVision auttaa suomalaisia yrityksiä ja julkishallintoa muuttamaan manuaaliset, taulukkolaskentapainotteiset prosessit automatisoiduiksi työnkuluiksi — usein päivien työ lyhenee tunteihin — tukenaan koko web-, mobiili- ja ohjelmistokehitys, joka tarvitaan sen viemiseksi käytäntöön.",
+      "body": "Sisäisistä automaatioagenteista niitä ympäröiviin verkko- ja mobiilisovelluksiin — rakennamme järjestelmiä verkkokauppaan, SaaS-palveluihin ja julkishallintoon, tukemaan organisaatiosi tämän päivän tarpeita ja kasvua.",
       "ctaPrimary": "Ota yhteyttä",
       "ctaSecondary": "Tutustu palveluihin"
     },
@@ -50,7 +50,7 @@
     },
     "services": {
       "eyebrow": "// mitä teemme",
-      "heading": "Tekoälyjärjestelmät ja agenttityönkulut, tukenaan vahva ohjelmistokehitys",
+      "heading": "Käytännöllistä tekoälyautomaatiota, tukena vahva ohjelmistokehitys",
       "subhead": "Suunnittelemme ja rakennamme käytännöllistä tekoälyautomaatiota. Yhdistämme senioritason koodausosaamisen, käyttäjälähtöisen suunnittelun ja turvallisen käyttöönoton alusta asti.",
       "items": [
         {
