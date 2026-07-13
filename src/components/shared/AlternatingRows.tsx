@@ -59,7 +59,7 @@ export default function AlternatingRows({ eyebrow, rows, background = "paper", i
                   {row.link && (
                     <Link
                       href={row.link.href}
-                      className="inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.1em] text-ochre-deep hover:text-ink transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
+                      className="inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-widest text-ochre-deep hover:text-ink transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
                     >
                       {row.link.label}
                       <span aria-hidden="true">→</span>

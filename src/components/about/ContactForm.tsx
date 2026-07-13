@@ -110,7 +110,7 @@ export default function ContactForm() {
       )}
 
       {/* Honeypot */}
-      <div aria-hidden="true" className="absolute -left-[9999px] -top-[9999px] overflow-hidden">
+      <div aria-hidden="true" className="absolute left-[-9999px] top-[-9999px] overflow-hidden">
         <label htmlFor="cf-website">Website</label>
         <input
           id="cf-website"

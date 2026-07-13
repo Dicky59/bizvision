@@ -25,7 +25,7 @@ export default function LocaleSwitcher() {
             className={
               locale === loc
                 ? "text-ochre-deep font-semibold"
-                : "text-taupe hover:text-ink transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep rounded"
+                : "text-taupe hover:text-ink transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep rounded"
             }
           >
             {loc.toUpperCase()}

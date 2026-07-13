@@ -6,7 +6,6 @@ export const organizationSchema = {
       "@id": "https://www.bizvision.fi/#organization",
       name: "BizVision",
       url: "https://www.bizvision.fi",
-      logo: "https://www.bizvision.fi/logo.png",
       email: "info@bizvision.fi",
       telephone: "+358407799859",
       founder: {
@@ -19,7 +18,6 @@ export const organizationSchema = {
       "@type": "ProfessionalService",
       "@id": "https://www.bizvision.fi/#localbusiness",
       name: "BizVision",
-      image: "https://www.bizvision.fi/logo.png",
       url: "https://www.bizvision.fi",
       telephone: "+358407799859",
       email: "info@bizvision.fi",

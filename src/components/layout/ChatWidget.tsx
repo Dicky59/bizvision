@@ -210,7 +210,7 @@ export default function ChatWidget() {
         )}
       >
         {/* Header */}
-        <div className="bg-hero-bg rounded-t-lg px-4 py-3 flex items-center justify-between flex-shrink-0">
+        <div className="bg-hero-bg rounded-t-lg px-4 py-3 flex items-center justify-between shrink-0">
           <div>
             <span className="block text-xs font-mono text-ochre-lite leading-none mb-1">
               {t("eyebrow")}
@@ -285,7 +285,7 @@ export default function ChatWidget() {
         {/* Input form */}
         <form
           onSubmit={handleSubmit}
-          className="border-t border-bone p-3 flex gap-2 items-end flex-shrink-0"
+          className="border-t border-bone p-3 flex gap-2 items-end shrink-0"
         >
           <textarea
             ref={textareaRef}
@@ -301,7 +301,7 @@ export default function ChatWidget() {
             type="submit"
             disabled={isStreaming || !input.trim()}
             aria-label={t("send")}
-            className="w-8 h-8 flex items-center justify-center rounded bg-ochre text-ink hover:bg-ochre-deep transition-colors motion-reduce:transition-none disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0"
+            className="w-8 h-8 flex items-center justify-center rounded bg-ochre text-ink hover:bg-ochre-deep transition-colors motion-reduce:transition-none disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
           >
             <Send size={14} />
           </button>
