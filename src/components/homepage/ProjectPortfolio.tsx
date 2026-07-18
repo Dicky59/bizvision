@@ -307,6 +307,7 @@ export default function ProjectPortfolio({ screenshots = {} }: ProjectPortfolioP
                 src={screenshots.center.src}
                 alt={screenshots.center.alt}
                 fill
+                priority
                 className="object-cover"
                 sizes="(min-width: 640px) 42vw, 80vw"
               />
