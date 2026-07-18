@@ -1,18 +1,22 @@
 @import "tailwindcss";
 
 /* ── Brand tokens — OKLCH values, single source of truth ── */
+/* Palette: "Glacial Ice" — cool slate-blue neutrals + deep glacial-teal
+   signal. Chosen with the design partner as a cooler, more enterprise-
+   credible direction than the original ochre/espresso palette, while
+   staying clear of stock Tailwind slate + blue-600 (see CLAUDE.md §4). */
 @theme {
   /* Colours */
-  --color-paper:       oklch(96.8% 0.007 79);   /* warm bone page bg */
-  --color-ink:         oklch(22.2% 0.011 66);   /* warm near-black text */
-  --color-hero-bg:     oklch(23.3% 0.014 61);   /* espresso dark section */
-  --color-hero-text:   oklch(93.5% 0.011 84);   /* light text on hero */
-  --color-ochre:       oklch(66.9% 0.124 74);   /* brand amber — CTA fills, dark-bg only */
-  --color-ochre-deep:  oklch(50.9% 0.096 68);   /* ochre text/marks on light bg */
-  --color-ochre-lite:  oklch(70.8% 0.114 72);   /* ochre marks on espresso hero */
-  --color-taupe:       oklch(51.3% 0.018 69);   /* secondary/muted text */
-  --color-bone:        oklch(90.0% 0.016 78);   /* hairlines, card borders */
-  --color-surface:     oklch(98.7% 0.005 86);   /* elevated cards, nav backdrop */
+  --color-paper:       oklch(96.5% 0.004 236);  /* cool paper page bg */
+  --color-ink:          oklch(25.1% 0.020 246);  /* slate-blue near-black text */
+  --color-hero-bg:      oklch(21.3% 0.017 241);  /* deep glacial-ink dark section */
+  --color-hero-text:    oklch(94.6% 0.006 223);  /* light icy text on hero */
+  --color-ochre:        oklch(53.2% 0.083 204);  /* brand teal — CTA fills, dark-bg only */
+  --color-ochre-deep:   oklch(38.9% 0.060 203);  /* teal text/marks on light bg */
+  --color-ochre-lite:   oklch(75.7% 0.093 202);  /* teal marks on hero (dark bg) */
+  --color-taupe:        oklch(49.1% 0.021 233);  /* secondary/muted text */
+  --color-bone:         oklch(89.6% 0.009 232);  /* hairlines, card borders */
+  --color-surface:      oklch(98.4% 0.003 229);  /* elevated cards, nav backdrop */
 
   /* Typography — resolved from next/font CSS vars at runtime */
   --font-display: var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
@@ -33,18 +37,18 @@
   --popover:               var(--color-surface);
   --popover-foreground:    var(--color-ink);
   --primary:               var(--color-ochre);
-  --primary-foreground:    var(--color-ink);    /* ink on ochre — NEVER white */
+  --primary-foreground:    var(--color-hero-text); /* light text on glacial — teal is darker than the old ochre, so this flips from "ink on ochre" to light-on-teal */
   --secondary:             var(--color-bone);
   --secondary-foreground:  var(--color-ink);
   --muted:                 var(--color-surface);
   --muted-foreground:      var(--color-taupe);
-  --accent:                var(--color-bone);   /* shadcn hover bg ≠ brand ochre */
+  --accent:                var(--color-bone);   /* shadcn hover bg ≠ brand teal */
   --accent-foreground:     var(--color-ink);
   --destructive:           oklch(57.7% 0.245 27);
   --destructive-foreground:var(--color-surface);
   --border:                var(--color-bone);
   --input:                 var(--color-bone);
-  --ring:                  var(--color-ochre);
+  --ring:                  var(--color-ochre-deep);
   --radius:                6px;
 }
 

@@ -14,7 +14,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "bg-ochre text-ink hover:bg-ochre-deep focus-visible:outline-ochre-deep",
+          "bg-ochre text-hero-text hover:bg-ochre-deep focus-visible:outline-ochre-deep",
         ghost:
           "border border-hero-text/40 text-hero-text hover:bg-hero-text/10 focus-visible:outline-ochre-lite",
         outline:

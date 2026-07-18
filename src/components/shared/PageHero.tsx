@@ -33,7 +33,7 @@ export default function PageHero({ eyebrow, headline, body, ctaPrimary, ctaSecon
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Link
                 href={ctaPrimary.href}
-                className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
+                className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-hero-text font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
               >
                 {ctaPrimary.label}
               </Link>

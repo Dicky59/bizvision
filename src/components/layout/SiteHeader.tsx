@@ -51,7 +51,7 @@ export default async function SiteHeader() {
           <LocaleSwitcher />
           <HashLink
             href="/about#contact"
-            className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-ink text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
+            className="inline-flex items-center justify-center h-10 px-5 rounded bg-ochre text-hero-text text-sm font-medium transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-deep"
           >
             {t("cta")}
           </HashLink>

@@ -93,7 +93,7 @@ export default function MobileMenu({
             <HashLink
               href="/about#contact"
               onClick={() => setOpen(false)}
-              className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep"
+              className="inline-flex items-center justify-center w-full h-12 px-6 rounded bg-ochre text-hero-text font-medium text-base transition-colors hover:bg-ochre-deep"
             >
               {ctaLabel}
             </HashLink>

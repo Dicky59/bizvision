@@ -301,7 +301,7 @@ export default function ChatWidget() {
             type="submit"
             disabled={isStreaming || !input.trim()}
             aria-label={t("send")}
-            className="w-8 h-8 flex items-center justify-center rounded bg-ochre text-ink hover:bg-ochre-deep transition-colors motion-reduce:transition-none disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
+            className="w-8 h-8 flex items-center justify-center rounded bg-ochre text-hero-text hover:bg-ochre-deep transition-colors motion-reduce:transition-none disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
           >
             <Send size={14} />
           </button>

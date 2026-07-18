@@ -52,20 +52,49 @@ scaffold locale-aware routing from Phase 0 — do NOT build flat routes.
 
 ## 4. Design direction
 
-The brief liked: **light theme overall, dark high-impact hero, warm colours,
-not startup-purple.** Honour that exactly. But avoid the default.
+**Palette (revised — "Glacial Ice"):** originally built around a warm
+ochre/espresso direction (see history below). Revised in collaboration with
+the design partner toward a cooler, more enterprise-credible palette while
+still avoiding the generic look — the risk this time being stock Tailwind
+slate + blue-600, which is the single most common palette in SaaS/AI tooling
+and directly undercuts the differentiation goal below. Landed on cool
+slate-blue neutrals with a deep glacial-teal signal instead of blue.
 
-**Trap to avoid:** current AI-generated sites cluster on three looks — (1) warm
-cream bg + high-contrast serif + terracotta accent; (2) near-black bg + single
-acid-green/vermilion accent; (3) broadsheet hairline-rule layout. The warm-light
-direction here sits right next to look (1). Do **not** render this as
-cream + serif + terracotta. Keep it warm, but make the choices specific to a
-Finnish senior-engineering brand.
+**Trap to avoid (still applies):** current AI-generated sites cluster on a
+handful of looks — (1) warm cream bg + high-contrast serif + terracotta
+accent; (2) near-black bg + single acid-green/vermilion accent; (3) broadsheet
+hairline-rule layout; (4) cool slate neutrals + saturated blue-600 accent
+(the shadcn/Tailwind default). Do not render this as any of the four.
 
-### Starting tokens (propose final values in your plan; these are the direction, not gospel)
+### Tokens (implemented in `globals.css`)
 
-Grounded in Nordic design restraint + material warmth — warm without being
-trendy, engineered without being cold.
+Grounded in Nordic cold — glacial water and ice rather than warm cream or
+generic tech-blue.
+
+```
+--paper        #F1F4F6   /* cool paper base, light theme              */
+--ink          #1A232B   /* slate-blue near-black text                */
+--hero-bg      #121A20   /* deep glacial-ink — the dark hero          */
+--hero-text    #E9EEF0   /* light icy text on the hero                */
+--accent       #1D7A82   /* glacial teal — CTA fills, NOT blue-600    */
+--accent-deep  #0F4E53   /* teal marks/text on light bg               */
+--accent-lite  #5FC2C9   /* teal marks on the dark hero                */
+--muted        #55636B   /* secondary text, cool slate-grey           */
+--line         #D7DEE2   /* hairlines, card borders                   */
+```
+
+Implementation note: `globals.css` keeps the original variable names
+(`--color-ochre`, `--color-ochre-deep`, `--color-ochre-lite`, `--color-taupe`,
+`--color-bone`) and only swaps their values, so no component code needs
+touching. If a future pass wants the variable names to actually say "glacial"
+instead of "ochre," that's a separate, larger rename across every component
+that references them — flag it before doing it, don't do it silently.
+
+The cold dark hero (glacial-ink, not warm espresso) is now the grounded
+signature move, paired with the teal signal instead of blue.
+
+<details>
+<summary>Original ochre/espresso direction (superseded)</summary>
 
 ```
 --paper      #F7F4EE   /* warm bone base, light theme            */
@@ -77,8 +106,7 @@ trendy, engineered without being cold.
 --line       #E4DDD2   /* hairlines, card borders                 */
 ```
 
-The warm _dark_ hero (espresso, not cold near-black) is the grounded signature
-move — most sites reach for a cold near-black hero.
+</details>
 
 ### Typography
 
@@ -93,7 +121,7 @@ move — most sites reach for a cold near-black hero.
 ### Structure & signature
 
 - **Signature:** a restrained monospace "annotation" layer — small mono
-  eyebrows/labels in the ochre accent, reading like quiet code comments. Gives
+  eyebrows/labels in the accent teal, reading like quiet code comments. Gives
   the whole site an engineered texture with no heavy animation.
 - **Numbering (01/02/…):** earned only where content is a real sequence — i.e.
   the **How We Work** process section. Do not use numbered markers decoratively
@@ -109,7 +137,7 @@ The site sells "accessibility" and "GDPR-aware" as capabilities, and targets
 Finnish public sector (bound by EU Web Accessibility Directive). So the site must
 demonstrate it:
 
-- WCAG-level colour contrast on all text (check the ochre accent on paper)
+- WCAG-level colour contrast on all text (check the teal accent on paper)
 - Semantic HTML, logical heading order, landmarks
 - Visible keyboard focus states, full keyboard navigation
 - Reduced-motion respected

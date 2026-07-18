@@ -30,7 +30,7 @@ export default function DarkCtaBand({ eyebrow, heading, body, ctaLabel, ctaHref,
             </p>
             <Link
               href={ctaHref}
-              className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-ink font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
+              className="inline-flex items-center justify-center h-12 px-6 rounded bg-ochre text-hero-text font-medium text-base transition-colors hover:bg-ochre-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ochre-lite"
             >
               {ctaLabel}
             </Link>
