@@ -316,13 +316,13 @@ export default function ChatWidget() {
         aria-expanded={open}
         aria-controls="chat-panel"
         className={cn(
-          "h-12 rounded-full bg-hero-bg text-ochre-lite flex items-center justify-center shadow-lg hover:bg-ink transition-colors motion-reduce:transition-none",
-          open ? "w-12" : "gap-2 px-4"
+          "h-12 w-12 rounded-full bg-hero-bg text-ochre-lite flex items-center justify-center shadow-lg transition-all duration-200 hover:bg-ink hover:shadow-xl hover:scale-105 motion-reduce:transition-none motion-reduce:hover:scale-100",
+          !open && "sm:w-auto sm:gap-2 sm:px-4"
         )}
       >
         {open ? <X size={20} /> : <MessageCircle size={20} />}
         {!open && (
-          <span className="text-sm font-medium text-hero-text whitespace-nowrap">
+          <span className="hidden sm:inline text-sm font-medium text-hero-text whitespace-nowrap">
             {t("triggerLabel")}
           </span>
         )}
