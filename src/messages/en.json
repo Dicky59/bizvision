@@ -54,6 +54,7 @@
       "subhead": "We design and build practical AI automation — combining senior engineering, user-centered design, and secure deployment from day one.",
       "items": [
         {
+          "tag": "AI",
           "title": "AI Agents & Intelligent Workflows",
           "body": "AI agents that take routine work off your team's plate — hours saved every week, not just a technology demo.",
           "bullets": [
@@ -65,16 +66,34 @@
           ]
         },
         {
+          "tag": "WEB",
           "title": "Web Development",
-          "body": "Modern web applications, dashboards, admin tools, and backend systems built with clean architecture and long-term maintainability in mind."
+          "body": "Modern web applications, dashboards, admin tools, and backend systems built with clean architecture and long-term maintainability in mind.",
+          "bullets": [
+            "Internal dashboards & admin tools",
+            "Data platforms & secure portals",
+            "Custom business applications"
+          ]
         },
         {
+          "tag": "MOBILE",
           "title": "Mobile Development",
-          "body": "Reliable cross-platform and native mobile applications designed for real-world use."
+          "body": "Reliable cross-platform and native mobile applications designed for real-world use.",
+          "bullets": [
+            "Enterprise & cross-platform apps",
+            "Secure, API-connected tooling",
+            "Internal workforce apps"
+          ]
         },
         {
+          "tag": "UX",
           "title": "UI/UX Design",
-          "body": "Clear, accessible, and practical interface design focused on usability — not decoration."
+          "body": "Clear, accessible, and practical interface design focused on usability — not decoration.",
+          "bullets": [
+            "Wireframes & design systems",
+            "Accessible, responsive interfaces (WCAG)",
+            "User-centered workflows"
+          ]
         }
       ]
     },

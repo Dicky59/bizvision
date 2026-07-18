@@ -54,6 +54,7 @@
       "subhead": "Suunnittelemme ja rakennamme käytännöllistä tekoälyautomaatiota. Yhdistämme senioritason koodausosaamisen, käyttäjälähtöisen suunnittelun ja turvallisen käyttöönoton alusta asti.",
       "items": [
         {
+          "tag": "TEKOÄLY",
           "title": "Tekoälyagentit ja älykkäät työnkulut",
           "body": "Tekoälyagentteja, jotka vapauttavat tiimisi rutiinitöistä — tunteja säästyy joka viikko, ja tulokset näkyvät suoraan viivan alla.",
           "bullets": [
@@ -65,16 +66,34 @@
           ]
         },
         {
+          "tag": "WEB",
           "title": "Verkkosovellukset & Taustajärjestelmät",
-          "body": "Moderneja verkkosovelluksia, liiketoimintasovelluksia ja taustajärjestelmiä, jotka rakennetaan puhtaalla arkkitehtuurilla."
+          "body": "Moderneja verkkosovelluksia, liiketoimintasovelluksia ja taustajärjestelmiä, jotka rakennetaan puhtaalla arkkitehtuurilla.",
+          "bullets": [
+            "Räätälöidyt liiketoimintasovellukset ja web-ohjelmistot",
+            "Sisäiset hallintapaneelit ja toiminnanohjaustyökalut",
+            "Asiakasportaalit ja suojatut data-alustat"
+          ]
         },
         {
+          "tag": "MOBIILI",
           "title": "Mobiilikehitys",
-          "body": "Luotettavia alustariippumattomia ja natiiveja mobiilisovelluksia todelliseen käyttöön suunniteltuna."
+          "body": "Luotettavia alustariippumattomia ja natiiveja mobiilisovelluksia todelliseen käyttöön suunniteltuna.",
+          "bullets": [
+            "Modernit alustariippumattomat ja natiivit mobiilisovellukset",
+            "Taustajärjestelmiin integroidut mobiilityökalut liikkuvaan työhön",
+            "Sisäiset sovellukset työntekijöiden arjen tehostamiseen"
+          ]
         },
         {
+          "tag": "UX",
           "title": "UI/UX-suunnittelu",
-          "body": "Selkeää, saavutettavaa ja käytännöllistä käyttöliittymäsuunnittelua. Meille design on työkalu, ei pelkkä koristus."
+          "body": "Selkeää, saavutettavaa ja käytännöllistä käyttöliittymäsuunnittelua. Meille design on työkalu, ei pelkkä koristus.",
+          "bullets": [
+            "Käyttäjälähtöiset, intuitiiviset ja sujuvat työnkulut",
+            "Saavutettavat, responsiiviset käyttöliittymät (WCAG)",
+            "Visuaaliset prototyypit ja skaalautuvat design-järjestelmät"
+          ]
         }
       ]
     },
