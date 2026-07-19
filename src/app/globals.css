@@ -18,6 +18,13 @@
   --color-bone:         oklch(89.6% 0.009 232);  /* hairlines, card borders */
   --color-surface:      oklch(98.4% 0.003 229);  /* elevated cards, nav backdrop */
 
+  /* Illustration-only accents — scoped to the four services-section SVG
+     icons, not part of the core brand palette. Deliberately a brighter
+     blue/cyan than the brand teal, used sparingly as a highlight inside
+     otherwise teal/hero-text line art. */
+  --color-icon-blue:    oklch(62.3% 0.184 260);  /* icon highlight — bright blue */
+  --color-icon-cyan:    oklch(85.5% 0.140 195);  /* icon highlight — glow cyan */
+
   /* Typography — resolved from next/font CSS vars at runtime */
   --font-display: var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
   --font-body:    var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
